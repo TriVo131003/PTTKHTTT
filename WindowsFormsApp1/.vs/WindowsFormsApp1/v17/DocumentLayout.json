@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\windowsformsapp1\\phieudangkyquangcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:phieudangkyquangcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\windowsformsapp1\\lapdanhsachdoanhnghieptiemnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:lapdanhsachdoanhnghieptiemnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\windowsformsapp1\\dangkyungtuyencuaungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:dangkyungtuyencuaungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\windowsformsapp1\\dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\windowsformsapp1\\phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,11 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LapDanhSachDoanhNghiepTiemNang.cs [Design]",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\LapDanhSachDoanhNghiepTiemNang.cs",
+              "RelativeDocumentMoniker": "LapDanhSachDoanhNghiepTiemNang.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\LapDanhSachDoanhNghiepTiemNang.cs [Design]",
+              "RelativeToolTip": "LapDanhSachDoanhNghiepTiemNang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:25:06.112Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DangKyUngTuyenCuaUngVien.cs [Design]",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\DangKyUngTuyenCuaUngVien.cs",
+              "RelativeDocumentMoniker": "DangKyUngTuyenCuaUngVien.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\DangKyUngTuyenCuaUngVien.cs [Design]",
+              "RelativeToolTip": "DangKyUngTuyenCuaUngVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:24:44.393Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DangKyThanhVienUngVien.cs [Design]",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
+              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs [Design]",
+              "RelativeToolTip": "DangKyThanhVienUngVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:24:24.154Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PhieuDangKyQuangCao.cs [Design]",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs",
+              "RelativeDocumentMoniker": "PhieuDangKyQuangCao.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs [Design]",
+              "RelativeToolTip": "PhieuDangKyQuangCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:24:06.005Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhieuThongTinDangTuyen.cs [Design]",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs",
+              "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs [Design]",
+              "RelativeToolTip": "PhieuThongTinDangTuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:23:44.434Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
