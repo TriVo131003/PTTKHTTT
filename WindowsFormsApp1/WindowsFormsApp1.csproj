@@ -87,6 +87,9 @@
     <EmbeddedResource Include="PhieuDangKyQuangCao.resx">
       <DependentUpon>PhieuDangKyQuangCao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PhieuThongTinDangTuyen.resx">
+      <DependentUpon>PhieuThongTinDangTuyen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
