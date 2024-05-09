@@ -20,6 +20,15 @@ namespace WindowsFormsApp1.BUS
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
+        public bool themUngVien(string hoTen, string sdt, string ngaySinh)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+            var doanhNghiep = new { hoTen = hoTen, sdt = sdt, ngaySinh = ngaySinh };
+            var content = new StringContent(JsonConvert.SerializeObject(doanhNghiep), System.Text.Encoding.UTF8, "application/json");
+            var response = client.PostAsync("UngVien/", content).Result;
+            return response.IsSuccessStatusCode;
+        }
+
 
         private static HttpClient ThietLapThongTinAPI()
         {

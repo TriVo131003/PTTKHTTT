@@ -9,7 +9,7 @@ namespace WebApplication1.DTO
     {
         public int MaUV { get; set; }
         public string HoTen { get; set; }
-        public DateTime NgaySinh { get; set; }
+        public string NgaySinh { get; set; }
         public string SDT { get; set; }
     }
 }
