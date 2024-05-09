@@ -18,42 +18,8 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public DataTable LayDanhSach_test()
         {
-            List<DoanhNghiep> lst = new List<DoanhNghiep>();
             var dt = dnDAO.getList();
             return dt;
-            //foreach (DataRow dr in dt.Rows)
-            //{
-            //    var sv = new DoanhNghiep()
-            //    {
-            //        MaSoThue = dr["MaSoThue"].ToString(),
-            //        TenCongTy = dr["TenCongTy"].ToString(),
-            //        DiaChi = dr["DiaChi"].ToString(),
-            //        Email = dr["Email"].ToString()
-            //    };
-
-            //    int laDNTN, laDNTNLon;
-            //    if (int.TryParse(dr["LaDNTN"].ToString(), out laDNTN))
-            //    {
-            //        sv.LaDNTN = laDNTN;
-            //    }
-            //    else
-            //    {
-            //        // Handle non-integer value
-            //    }
-
-            //    if (int.TryParse(dr["LaDNTNLon"].ToString(), out laDNTNLon))
-            //    {
-            //        sv.LaDNTNLon = laDNTNLon;
-            //    }
-            //    else
-            //    {
-            //        // Handle non-integer value
-            //    }
-
-            //    lst.Add(sv);
-            //}
-
-            //return lst;
         }
 
         //[Route("api/DoanhNghiep/insert")]
