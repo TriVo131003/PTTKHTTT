@@ -187,6 +187,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PhieuDangKyQuangCao";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.PhieuDangKyQuangCao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
