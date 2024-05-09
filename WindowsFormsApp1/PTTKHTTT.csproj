@@ -58,11 +58,41 @@
     <Compile Include="DangKyUngTuyenCuaUngVien.Designer.cs">
       <DependentUpon>DangKyUngTuyenCuaUngVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="DNTiemNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DNTiemNang.Designer.cs">
+      <DependentUpon>DNTiemNang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoanhNghiepCanGiaHanHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoanhNghiepCanGiaHanHD.Designer.cs">
+      <DependentUpon>DoanhNghiepCanGiaHanHD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaHanHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiaHanHopDong.Designer.cs">
+      <DependentUpon>GiaHanHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThiPhieuDangTuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThiPhieuDangTuyen.Designer.cs">
+      <DependentUpon>HienThiPhieuDangTuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThiPhieuQuangCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThiPhieuQuangCao.Designer.cs">
+      <DependentUpon>HienThiPhieuQuangCao.cs</DependentUpon>
     </Compile>
     <Compile Include="LapDanhSachDoanhNghiepTiemNang.cs">
       <SubType>Form</SubType>
@@ -90,8 +120,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="DangKyUngTuyenCuaUngVien.resx">
       <DependentUpon>DangKyUngTuyenCuaUngVien.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="DNTiemNang.resx">
+      <DependentUpon>DNTiemNang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoanhNghiepCanGiaHanHD.resx">
+      <DependentUpon>DoanhNghiepCanGiaHanHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaHanHopDong.resx">
+      <DependentUpon>GiaHanHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThiPhieuDangTuyen.resx">
+      <DependentUpon>HienThiPhieuDangTuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThiPhieuQuangCao.resx">
+      <DependentUpon>HienThiPhieuQuangCao.cs</DependentUpon>
+>>>>>>> bd4cf938d286d615357cc1da2b26c1233cb108e6
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
