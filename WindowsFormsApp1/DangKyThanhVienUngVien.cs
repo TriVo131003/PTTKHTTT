@@ -22,21 +22,19 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-                String hoTen = hoTenTextBox.Text;
-                String sdt = sdtTextBox.Text;
+            String hoTen = hoTenTextBox.Text;
+            String sdt = sdtTextBox.Text;
             DateTime ngaySinh = ngaySinhPicker.Value;
-                if (string.IsNullOrEmpty(hoTen) || string.IsNullOrEmpty(sdt))
-                {
+            if (string.IsNullOrEmpty(hoTen) || string.IsNullOrEmpty(sdt))
+            {
                 // MessageBox.Show("Bạn chưa điền đủ hết các trường");
                 thongBaoLabel.Visible = true;
                 thongBaoLabel.ForeColor = Color.Red;
                 thongBaoLabel.Text = "Bạn chưa điền đủ hết các trường";
-                    return; 
-                }
-                UngVienBUS ungVienBUS = new UngVienBUS();
-            bool result = ungVienBUS.themUngVien(hoTen, sdt, ngaySinh.ToString());
-            MessageBox.Show(ngaySinh.ToString());
+                return;
+            }
+            UngVienBUS ungVienBUS = new UngVienBUS();
+            bool result = ungVienBUS.themUngVien(hoTen, sdt, ngaySinh.ToString("yyyy-MM-dd"));
         }
 
         private void label3_Click(object sender, EventArgs e)

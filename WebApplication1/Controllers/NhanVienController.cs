@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
-using System.Web.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    public class NhanVienController : Controller
+    public class NhanVienController : ApiController
     {
-        // GET: NhanVien
-        public ActionResult Index()
+        [Route("api/PhieuDangKyQuangCao/getAccordingTo/{MaPDT}")]
+        [HttpGet]
+        public DataTable LayPhieuDangTuyen(String MaPDT)
         {
-            return View();
+            var dt = pdkDAO.getListTheoCongTy(MaPDT);
+            return dt;
         }
     }
 }

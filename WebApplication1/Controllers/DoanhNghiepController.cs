@@ -21,13 +21,5 @@ namespace WebApplication1.Controllers
             var dt = dnDAO.getList();
             return dt;
         }
-
-        //[Route("api/DoanhNghiep/insert")]
-        //[HttpPost]
-        //public ActionResult Create(DoanhNghiep doanhNghiep)
-        //{
-        //    dnDAO.Insert(doanhNghiep);
-        //    return RedirectToAction("Index");
-        //}
     }
 }
