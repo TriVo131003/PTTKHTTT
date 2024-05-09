@@ -17,8 +17,9 @@ namespace WindowsFormsApp1
         public DangKyUngTuyenCuaUngVien()
         {
             InitializeComponent();
+            PDT_Load();
         }
-        private void PDT_Load(object sender, EventArgs e)
+        private void PDT_Load()
         {
             PTTDTDataGrid.DataSource = pdtBUS.LayDanhSach();
         }

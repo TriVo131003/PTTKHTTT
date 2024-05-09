@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS\PhieuDangTuyenBUS .cs" />
     <Compile Include="BUS\DoanhNghiepBUS.cs" />
     <Compile Include="BUS\DoanhNghiepTiemNangBUS.cs" />
     <Compile Include="BUS\HinhThucDangTuyenBUS.cs" />
@@ -132,6 +131,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DangKyThanhVienUngVien.resx">
+      <DependentUpon>DangKyThanhVienUngVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangKyUngTuyenCuaUngVien.resx">
       <DependentUpon>DangKyUngTuyenCuaUngVien.cs</DependentUpon>
     </EmbeddedResource>
