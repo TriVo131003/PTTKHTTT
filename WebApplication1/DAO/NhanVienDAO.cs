@@ -10,7 +10,7 @@ namespace WebApplication1.DAO
     {
         public DataTable getNhanVien(string MaNV)
         {
-            string sql = string.Format("Select * from NhanVien where MaNV = {0}", MaNV);
+            string sql = string.Format("Select * from NhanVien where MaNhanVien = {0}", MaNV);
             return getDataTable(sql);
         }
     }

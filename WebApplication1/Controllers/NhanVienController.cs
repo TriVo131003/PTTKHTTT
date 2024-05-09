@@ -4,16 +4,19 @@ using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using WebApplication1.DAO;
 
 namespace WebApplication1.Controllers
 {
     public class NhanVienController : ApiController
     {
-        [Route("api/PhieuDangKyQuangCao/getAccordingTo/{MaPDT}")]
+        NhanVienDAO nvDao = new NhanVienDAO();
+
+        [Route("api/NhanVien/Login/{MaNV}")]
         [HttpGet]
-        public DataTable LayPhieuDangTuyen(String MaPDT)
+        public DataTable LayThongTinDangNhap(String MaNV)
         {
-            var dt = pdkDAO.getListTheoCongTy(MaPDT);
+            var dt = nvDao.getNhanVien(MaNV);
             return dt;
         }
     }

@@ -17,7 +17,6 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             thongBaoLabel.Visible = false;
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -35,16 +34,8 @@ namespace WindowsFormsApp1
             }
             UngVienBUS ungVienBUS = new UngVienBUS();
             bool result = ungVienBUS.themUngVien(hoTen, sdt, ngaySinh.ToString("yyyy-MM-dd"));
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
+            if (result) MessageBox.Show("Đã đăng ký thành công");
+            else MessageBox.Show("Đăng ký thất bại");
         }
     }
 }

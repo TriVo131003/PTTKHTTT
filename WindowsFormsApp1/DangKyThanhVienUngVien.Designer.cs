@@ -47,7 +47,6 @@
             this.thongBaoLabel.Size = new System.Drawing.Size(73, 16);
             this.thongBaoLabel.TabIndex = 36;
             this.thongBaoLabel.Text = "Thông báo";
-            this.thongBaoLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // button2
             // 
@@ -90,7 +89,6 @@
             this.label3.Size = new System.Drawing.Size(85, 16);
             this.label3.TabIndex = 31;
             this.label3.Text = "Số điện thoại";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // hoTenTextBox
             // 
