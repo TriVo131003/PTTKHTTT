@@ -151,6 +151,23 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhieuThongTinDangTuyen.Designer.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.Designer.cs",
+              "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.Designer.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.Designer.cs",
+              "RelativeToolTip": "PhieuThongTinDangTuyen.Designer.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAnwLgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T15:16:34.074Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DangKyThanhVienUngVien.cs [Design]",
@@ -458,6 +475,19 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T08:10:46.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DangKyThanhVienUngVien.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
+              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
+              "RelativeToolTip": "DangKyThanhVienUngVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:58:06.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
