@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Web;
 using WebApplication1.DTO;
 
@@ -14,10 +15,11 @@ namespace WebApplication1.DAO
             return getDataTable(sql);
         }
 
-        public int Insert(UngVien uv)
+        public int Insert(PhieuDangTuyen pdt)
         {
-            string sql = string.Format("Insert Into PhieuDangTuyen" +
-              "Values({0}, '{1}', '{2}', '{3}')", uv.MaUV, uv.HoTen, uv.NgaySinh.ToString(), uv.SDT);
+            string sql = string.Format("INSERT INTO PhieuDangTuyen (MaSoThue, ViTriUngTuyen, SoLuongTuyen, MaTieuChi, NgayDK, ThoiGianDangTuyen, TinhTrangHopLe) " +
+                "VALUES ({0}, '{1}', {2}, '{3}', '{4}', '{5}', '{6}')",
+                pdt.MaSoThue, pdt.ViTriUngTuyen, pdt.SoLuongTuyen, pdt.MaTieuChi, pdt.NgayDK, pdt.ThoiGianDangTuyen, pdt.TinhTrangHopLe);
             return ExecuteNonQuery(sql);
         }
 

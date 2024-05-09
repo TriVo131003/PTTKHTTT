@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.BUS;
 
 namespace WindowsFormsApp1
 {
     public partial class PhieuThongTinDangTuyen : Form
     {
+        TieuChiDoanhNghiepBUS tcdnBUS = new TieuChiDoanhNghiepBUS();
         public PhieuThongTinDangTuyen()
         {
             InitializeComponent();
@@ -22,44 +24,13 @@ namespace WindowsFormsApp1
 
         }
 
-        private void groupBox6_Enter(object sender, EventArgs e)
+        private void loadDSMaTieuChi(object sender, EventArgs e)
         {
-
+            comboBox1.Items.Add("1"); //= tcdnBUS.LayDanhSachMaTieuChi();
+            //comboBox1.DisplayMember = "MaTieuChi";
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
