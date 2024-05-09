@@ -108,3 +108,12 @@ D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplicatio
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\obj\Debug\PTTKHTTT.28A756E5.Up2Date
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\obj\Debug\WebApplication1.dll
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\Newtonsoft.Json.Bson.dll
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\System.Net.Http.Formatting.dll
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\Newtonsoft.Json.Bson.pdb
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\Newtonsoft.Json.Bson.xml
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\System.Net.Http.Formatting.xml
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\System.Web.Http.dll
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\System.Web.Http.xml
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\System.Web.Http.WebHost.dll
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WebApplication1\bin\System.Web.Http.WebHost.xml

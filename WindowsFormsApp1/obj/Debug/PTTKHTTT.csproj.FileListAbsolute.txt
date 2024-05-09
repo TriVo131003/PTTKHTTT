@@ -10,3 +10,23 @@ D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsA
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.CoreCompileInputs.cache
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.AssemblyReference.cache
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DNTiemNang.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DoanhNghiepCanGiaHanHD.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.GiaHanHopDong.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HienThiPhieuDangTuyen.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HienThiPhieuQuangCao.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PhieuDangKyQuangCao.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PhieuThongTinDangTuyen.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.GenerateResource.cache
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.CoreCompileInputs.cache
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.Up2Date
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

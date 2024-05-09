@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\controllers\\doanhnghiepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\doanhnghiepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\dao\\doanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\doanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\dto\\doanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dto\\doanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\dao\\ungviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\ungviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\dao\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\webapplication1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\controllers\\phieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\phieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\dto\\ungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dto\\ungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\controllers\\ungviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\ungviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|WebApplication1.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|WebApplication1.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|WebApplication1.csproj|solutionrelative:app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|WebApplication1.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|WebApplication1.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,76 +70,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T20:18:13.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T20:18:00.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T20:16:33.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T20:14:52.526Z",
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T07:01:18.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAzAAAA",
+              "Title": "DoanhNghiep.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DTO\\DoanhNghiep.cs",
+              "RelativeDocumentMoniker": "DTO\\DoanhNghiep.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DTO\\DoanhNghiep.cs",
+              "RelativeToolTip": "DTO\\DoanhNghiep.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T20:14:28.176Z",
+              "WhenOpened": "2024-05-08T20:22:18.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UngVien.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DTO\\UngVien.cs",
+              "RelativeDocumentMoniker": "DTO\\UngVien.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DTO\\UngVien.cs",
+              "RelativeToolTip": "DTO\\UngVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:58:24.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DAO\\Database.cs",
+              "RelativeDocumentMoniker": "DAO\\Database.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DAO\\Database.cs",
+              "RelativeToolTip": "DAO\\Database.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:37:30.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "UngVienDAO.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DAO\\UngVienDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\UngVienDAO.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DAO\\UngVienDAO.cs",
+              "RelativeToolTip": "DAO\\UngVienDAO.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:49:05.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T21:59:20.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T21:57:25.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoanhNghiepController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoanhNghiepController.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs",
+              "RelativeToolTip": "Controllers\\DoanhNghiepController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:13:37.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoanhNghiepDAO.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DAO\\DoanhNghiepDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\DoanhNghiepDAO.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\DAO\\DoanhNghiepDAO.cs",
+              "RelativeToolTip": "DAO\\DoanhNghiepDAO.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T20:30:13.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:00:33.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhieuController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PhieuController.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuController.cs",
+              "RelativeToolTip": "Controllers\\PhieuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:15:27.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:14:26.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UngVienController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\UngVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UngVienController.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\UngVienController.cs",
+              "RelativeToolTip": "Controllers\\UngVienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:14:13.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T18:49:04.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -124,43 +265,6 @@
               "ViewState": "AQIAAA0AAAAAAAAAAAAkwBwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T14:10:22.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:10:14.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FilterConfig.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\FilterConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\FilterConfig.cs",
-              "RelativeToolTip": "App_Start\\FilterConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:10:12.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WebApplication1\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "App_Start\\BundleConfig.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:10:09.65Z"
             }
           ]
         }
