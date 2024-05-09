@@ -120,10 +120,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <EmbeddedResource Include="DangKyUngTuyenCuaUngVien.resx">
       <DependentUpon>DangKyUngTuyenCuaUngVien.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="DNTiemNang.resx">
       <DependentUpon>DNTiemNang.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,7 +137,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HienThiPhieuQuangCao.resx">
       <DependentUpon>HienThiPhieuQuangCao.cs</DependentUpon>
->>>>>>> bd4cf938d286d615357cc1da2b26c1233cb108e6
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
