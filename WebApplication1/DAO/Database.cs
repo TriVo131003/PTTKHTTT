@@ -3,7 +3,7 @@ using MySql.Data.MySqlClient;
 
 namespace WebApplication1.DAO
 {
-    public class Database
+    public class Database   
     {
         string path = $"Server=byurnw82eioyoixoulvr-mysql.services.clever-cloud.com;Database=byurnw82eioyoixoulvr;" +
                 $"Uid=uv0jgbeuvv7iffkb;Pwd=ZL8n6wKDCrAqgQ9bWsya;";
