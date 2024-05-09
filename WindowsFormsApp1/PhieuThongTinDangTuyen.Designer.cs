@@ -66,7 +66,6 @@
             this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "Mã số thuế";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -105,7 +104,6 @@
             this.label4.Size = new System.Drawing.Size(99, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "Số lượng ứng tuyển";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label6
             // 
@@ -116,7 +114,6 @@
             this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Mã tiêu chí";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox5
             // 
@@ -157,7 +154,6 @@
             this.label2.Size = new System.Drawing.Size(266, 18);
             this.label2.TabIndex = 23;
             this.label2.Text = "PHIẾU THÔNG TIN ĐĂNG TUYỂN";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox3
             // 
@@ -187,7 +183,6 @@
             this.label7.Size = new System.Drawing.Size(36, 13);
             this.label7.TabIndex = 26;
             this.label7.Text = "(ngày)";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // comboBox1
             // 
