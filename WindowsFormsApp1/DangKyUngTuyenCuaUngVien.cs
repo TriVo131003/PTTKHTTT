@@ -16,5 +16,20 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void LoadBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PTTDTDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void DKBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

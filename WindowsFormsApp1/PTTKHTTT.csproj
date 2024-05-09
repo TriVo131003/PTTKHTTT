@@ -124,6 +124,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DangKyUngTuyenCuaUngVien.resx">
+      <DependentUpon>DangKyUngTuyenCuaUngVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DNTiemNang.resx">
       <DependentUpon>DNTiemNang.cs</DependentUpon>
     </EmbeddedResource>
