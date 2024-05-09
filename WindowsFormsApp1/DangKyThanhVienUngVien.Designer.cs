@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
+            this.thongBaoLabel = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.ngaySinhPicker = new System.Windows.Forms.DateTimePicker();
+            this.sdtTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.hoTenTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label4
+            // thongBaoLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(351, 112);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 16);
-            this.label4.TabIndex = 36;
-            this.label4.Text = "Thông báo";
+            this.thongBaoLabel.AutoSize = true;
+            this.thongBaoLabel.Location = new System.Drawing.Point(351, 112);
+            this.thongBaoLabel.Name = "thongBaoLabel";
+            this.thongBaoLabel.Size = new System.Drawing.Size(73, 16);
+            this.thongBaoLabel.TabIndex = 36;
+            this.thongBaoLabel.Text = "Thông báo";
+            this.thongBaoLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // button2
             // 
@@ -56,20 +57,21 @@
             this.button2.TabIndex = 35;
             this.button2.Text = "Xác nhận";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dateTimePicker1
+            // ngaySinhPicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(354, 278);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(274, 22);
-            this.dateTimePicker1.TabIndex = 34;
+            this.ngaySinhPicker.Location = new System.Drawing.Point(354, 278);
+            this.ngaySinhPicker.Name = "ngaySinhPicker";
+            this.ngaySinhPicker.Size = new System.Drawing.Size(274, 22);
+            this.ngaySinhPicker.TabIndex = 34;
             // 
-            // textBox2
+            // sdtTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(354, 212);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(274, 22);
-            this.textBox2.TabIndex = 33;
+            this.sdtTextBox.Location = new System.Drawing.Point(354, 212);
+            this.sdtTextBox.Name = "sdtTextBox";
+            this.sdtTextBox.Size = new System.Drawing.Size(274, 22);
+            this.sdtTextBox.TabIndex = 33;
             // 
             // label5
             // 
@@ -88,13 +90,14 @@
             this.label3.Size = new System.Drawing.Size(85, 16);
             this.label3.TabIndex = 31;
             this.label3.Text = "Số điện thoại";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox1
+            // hoTenTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(354, 149);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(274, 22);
-            this.textBox1.TabIndex = 30;
+            this.hoTenTextBox.Location = new System.Drawing.Point(354, 149);
+            this.hoTenTextBox.Name = "hoTenTextBox";
+            this.hoTenTextBox.Size = new System.Drawing.Size(274, 22);
+            this.hoTenTextBox.TabIndex = 30;
             // 
             // label2
             // 
@@ -120,13 +123,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.thongBaoLabel);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ngaySinhPicker);
+            this.Controls.Add(this.sdtTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.hoTenTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "DangKyThanhVienUngVien";
@@ -138,13 +141,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label thongBaoLabel;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DateTimePicker ngaySinhPicker;
+        private System.Windows.Forms.TextBox sdtTextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox hoTenTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

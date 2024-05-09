@@ -16,15 +16,15 @@ namespace WebApplication1.DAO
 
         public int Insert(UngVien uv)
         {
-            string sql = string.Format("Insert Into UngVien" +
-              "Values({0}, '{1}', '{2}', '{3}')", uv.MaUV, uv.HoTen, uv.NgaySinh.ToString(), uv.SDT);
+            string sql = string.Format("Insert Into UngVien(HoTen, SDT, NgaySinh)" +
+              "Values('{0}', '{1}', '{2}')", uv.HoTen, uv.SDT, uv.NgaySinh);
             return ExecuteNonQuery(sql);
         }
 
         public int Update(UngVien uv)
         {
             string sql = string.Format("Update UngVien Set HoTen='{1}', NgaySinh='{2}', SDT={3} " +
-                "Where MaUV={0}", uv.MaUV, uv.HoTen, uv.NgaySinh.ToString(), uv.SDT);
+                "Where MaUV={0}", uv.MaUV, uv.HoTen, uv.NgaySinh, uv.SDT);
             return ExecuteNonQuery(sql);
         }
 
