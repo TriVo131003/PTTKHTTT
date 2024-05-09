@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUS\DoanhNghiepBUS.cs" />
+    <Compile Include="BUS\TieuChiDoanhNghiepBUS.cs" />
     <Compile Include="BUS\DoanhNghiepTiemNangBUS.cs" />
     <Compile Include="BUS\HinhThucDangTuyenBUS.cs" />
     <Compile Include="BUS\HopDongTuyenDungBUS.cs" />
@@ -81,11 +82,11 @@
     <Compile Include="DoanhNghiepCanGiaHanHD.Designer.cs">
       <DependentUpon>DoanhNghiepCanGiaHanHD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="DanhSachTieuChiDoanhNghiep.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DanhSachTieuChiDoanhNghiep.Designer.cs">
+      <DependentUpon>DanhSachTieuChiDoanhNghiep.cs</DependentUpon>
     </Compile>
     <Compile Include="GiaHanHopDong.cs">
       <SubType>Form</SubType>
@@ -137,6 +138,9 @@
     <EmbeddedResource Include="DangKyUngTuyenCuaUngVien.resx">
       <DependentUpon>DangKyUngTuyenCuaUngVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachTieuChiDoanhNghiep.resx">
+      <DependentUpon>DanhSachTieuChiDoanhNghiep.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DNTiemNang.resx">
       <DependentUpon>DNTiemNang.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HienThiPhieuQuangCao.resx">
       <DependentUpon>HienThiPhieuQuangCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapDanhSachDoanhNghiepTiemNang.resx">
+      <DependentUpon>LapDanhSachDoanhNghiepTiemNang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

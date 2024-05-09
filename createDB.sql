@@ -2,10 +2,7 @@
 USE byurnw82eioyoixoulvr;
 
 SET foreign_key_checks = 0;
--- Drop tables only if they exist
-
-DROP TABLE IF EXISTS HoSoUngVien;
-DROP TABLE IF EXISTS PhieuDangTuyen;
+-- Drop tables only if they exist;
 DROP TABLE IF EXISTS DoanhNghiep;
 DROP TABLE IF EXISTS UngVien;
 DROP TABLE IF EXISTS NhanVien;

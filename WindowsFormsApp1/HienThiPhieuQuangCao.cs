@@ -7,19 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.BUS;
 
 namespace WindowsFormsApp1
 {
     public partial class HienThiPhieuQuangCao : Form
     {
-        public HienThiPhieuQuangCao()
-        {
-            InitializeComponent();
-        }
+        PhieuQuangCaoBUS pcbus = new PhieuQuangCaoBUS();
 
-        private void label2_Click(object sender, EventArgs e)
+        private void btnTim_Click(object sender, EventArgs e)
         {
-
+            dataGridView2.DataSource = pcbus.LayTheoPhieuDangTuyen(textBox2.Text);
         }
     }
 }

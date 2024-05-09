@@ -10,22 +10,22 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1.BUS
 {
-    internal class PhieuQuangCaoBUS
+    internal class TieuChiDoanhNghiepBUS
     {
         public DataTable LayDanhSach()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("PhieuDangKyQuangCao/getList").Result;
+            var response = client.GetStringAsync("TieuChi/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
 
-        public DataTable LayTheoPhieuDangTuyen(String MaPDT)
+        public DataTable LayDanhSachMaTieuChi()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("PhieuDangKyQuangCao/getAccordingTo/{MaPDT}").Result;
+            var response = client.GetStringAsync("TieuChi/getListMa").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }

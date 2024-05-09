@@ -17,17 +17,17 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void PhieuDangKyQuangCao_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maSoThue_ComboBox_Changed(object sender, EventArgs e)
         {
 
         }
