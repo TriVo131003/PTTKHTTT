@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\PhieuDangTuyenBUS .cs" />
     <Compile Include="BUS\DoanhNghiepBUS.cs" />
     <Compile Include="DangKyThanhVienUngVien.cs">
       <SubType>Form</SubType>

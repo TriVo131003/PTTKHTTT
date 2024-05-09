@@ -7,19 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.BUS;
 
 namespace WindowsFormsApp1
 {
     public partial class DangKyUngTuyenCuaUngVien : Form
     {
+        PhieuDangTuyenBUS pdtBUS = new PhieuDangTuyenBUS();
         public DangKyUngTuyenCuaUngVien()
         {
             InitializeComponent();
         }
-
-        private void LoadBtn_Click(object sender, EventArgs e)
+        private void PDT_Load(object sender, EventArgs e)
         {
-
+            PTTDTDataGrid.DataSource = pdtBUS.LayDanhSach();
         }
 
         private void PTTDTDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
