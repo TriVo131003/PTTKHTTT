@@ -26,11 +26,19 @@ namespace WebApplication1.Controllers
             int dt = ungVienDAO.Insert(ungVien);
             return dt;
         }
-        [Route("api/UngVien/getListMa")]
+
+        [Route("api/UngVien/kiemTraSDT")]
         [HttpGet]
-        public DataTable LayDanhSachMaUV()
+        public DataTable KiemTraSDT(string hoTen, string sdt, string ngaySinh)
         {
-            var dt = ungVienDAO.getListMa();
+            
+            UngVien ungVien = new UngVien
+            {
+                HoTen = hoTen,
+                SDT = sdt,
+                NgaySinh = ngaySinh
+            };
+            DataTable dt = ungVienDAO.KiemTraTonTaiSDT(ungVien);
             return dt;
         }
     }

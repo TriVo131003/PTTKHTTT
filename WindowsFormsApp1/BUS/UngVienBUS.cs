@@ -16,7 +16,6 @@ namespace WindowsFormsApp1.BUS
         public DataTable LayDanhSach()
         {
             HttpClient client = ThietLapThongTinAPI();
-
             var response = client.GetStringAsync("DoanhNghiep/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
@@ -36,6 +35,18 @@ namespace WindowsFormsApp1.BUS
             string url = $"?hoTen={hoTen}&sdt={sdt}&ngaySinh={ngaySinh}";
             var response = client.PostAsync("UngVien/them" + url, null).Result;
             return response.IsSuccessStatusCode;
+        }
+
+        public bool KiemTraTonTaiSDT(string hoTen, string sdt, string ngaySinh)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+            string url = $"UngVien/kiemTraSDT?hoTen={hoTen}&sdt={sdt}&ngaySinh={ngaySinh}";
+            var response = client.GetStringAsync(url).Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            if (data.Rows.Count > 0)
+            {
+                return true;
+            } else return false;
         }
         private static HttpClient ThietLapThongTinAPI()
         {
