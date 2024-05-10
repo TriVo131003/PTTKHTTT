@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
             int dt = ungVienDAO.Insert(ungVien);
             return dt;
         }
+        [Route("api/UngVien/getListMa")]
+        [HttpGet]
+        public DataTable LayDanhSachMaUV()
+        {
+            var dt = ungVienDAO.getListMa();
+            return dt;
+        }
     }
 }

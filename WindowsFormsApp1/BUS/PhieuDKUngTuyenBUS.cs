@@ -11,31 +11,39 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.BUS
 {
-    internal class UngVienBUS
+    internal class PhieuDKUngTuyenBUS
     {
         public DataTable LayDanhSach()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("DoanhNghiep/getList").Result;
+            var response = client.GetStringAsync("PhieuDKUngTuyen/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
 
-        public DataTable LayDanhSachMaUV()
+        public DataTable LayDanhSachMaDKUT()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("UngVien/getListMa").Result;
+            var response = client.GetStringAsync("PhieuDKUngTuyen/getListMa").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
-        public bool themUngVien(string hoTen, string sdt, string ngaySinh)
+        public bool themPDKUT(string MaPTTDT, string MaUV, string NgayLapPhieu)
         {
             HttpClient client = ThietLapThongTinAPI();
-            string url = $"?hoTen={hoTen}&sdt={sdt}&ngaySinh={ngaySinh}";
-            var response = client.PostAsync("UngVien/them" + url, null).Result;
+            string url = $"?MaPTTDT={MaPTTDT}&MaUV={MaUV}&NgayLapPhieu={NgayLapPhieu}";
+            var response = client.PostAsync("PhieuDKUngTuyen/them" + url, null).Result;
             return response.IsSuccessStatusCode;
+        }
+        public int kiemTraThemPDKUT(string MaPTTDT, string MaUV)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+            string url = $"/{MaPTTDT}/{MaUV}";
+            var response = client.GetStringAsync("PhieuDKUngTuyen/KiemTrathem" + url).Result;
+            int data = JsonConvert.DeserializeObject<int>(response);
+            return data;
         }
         private static HttpClient ThietLapThongTinAPI()
         {
