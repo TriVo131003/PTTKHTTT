@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Data;
 using System.Web;
 using WebApplication1.DTO;
+using System.Web.Services.Description;
+
 
 namespace WebApplication1.DAO
 {
@@ -19,6 +21,13 @@ namespace WebApplication1.DAO
             string sql = string.Format("Insert Into UngVien(HoTen, SDT, NgaySinh)" +
               "Values('{0}', '{1}', '{2}')", uv.HoTen, uv.SDT, uv.NgaySinh);
             return ExecuteNonQuery(sql);
+        }
+        
+        public DataTable KiemTraTonTaiSDT(UngVien uv)
+        {
+            string sql = string.Format("select 1 from UngVien where SDT = '{0}'", uv.SDT);
+
+            return getDataTable(sql);
         }
 
         public int Update(UngVien uv)
