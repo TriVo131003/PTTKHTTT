@@ -16,7 +16,14 @@ namespace WindowsFormsApp1.BUS
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
+        public DataTable LayTTDN(string MST)
+        {
+            HttpClient client = ThietLapThongTinAPI();
 
+            var response = client.GetStringAsync($"DoanhNghiep/get1DN?MaSoThue={MST}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            return data;
+        }
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

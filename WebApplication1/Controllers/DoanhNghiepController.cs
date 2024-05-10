@@ -21,5 +21,20 @@ namespace WebApplication1.Controllers
             var dt = dnDAO.getList();
             return dt;
         }
+
+        [Route("api/DoanhNghiep/get1DN")]
+        [HttpGet]
+        public DataTable LayDoanhNghiep(string MaSoThue)
+        {
+            var dt = dnDAO.getDoanhNghiep(MaSoThue);
+            return dt;
+        }
+        //[Route("api/DoanhNghiep/insert")]
+        //[HttpPost]
+        //public ActionResult Create(DoanhNghiep doanhNghiep)
+        //{
+        //    dnDAO.Insert(doanhNghiep);
+        //    return RedirectToAction("Index");
+        //}
     }
 }

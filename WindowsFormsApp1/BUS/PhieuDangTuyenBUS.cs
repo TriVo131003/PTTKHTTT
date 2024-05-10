@@ -14,7 +14,7 @@ namespace WindowsFormsApp1.BUS
     {
         public DataTable LayDanhSach()
         {
-            HttpClient client = new HttpClient();
+            HttpClient client = ThietLapThongTinAPI();
 
             var response = client.GetStringAsync("PhieuDangTuyen/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
@@ -30,6 +30,13 @@ namespace WindowsFormsApp1.BUS
             return data;
         }
 
+        public bool themPhieuDangTuyen(string maSoThue, string viTriUngTuyen, int soLuongTuyen, int maTieuChi, int thoiGianDangTuyen)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+            string url = $"?MaSoThue={maSoThue}&ViTriUngTuyen={viTriUngTuyen}&SoLuongTuyen={soLuongTuyen}&MaTieuChi={maTieuChi}&ThoiGianDangTuyen={thoiGianDangTuyen}";
+            var response = client.PostAsync("PhieuDangTuyen/Them" + url, null).Result;
+            return response.IsSuccessStatusCode;
+        }
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

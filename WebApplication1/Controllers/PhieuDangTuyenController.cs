@@ -25,6 +25,21 @@ namespace WebApplication1.Controllers
         public DataTable LayDSTheoMST(String MaSoThue)
         {
             var dt = pdtDAO.DSPhieuTheoMST(MaSoThue);
+        [Route("api/PhieuDangTuyen/them")]
+        [HttpPost]
+        public int ThemPhieuDangTuyen(string maSoThue,string viTriUngTuyen, int soLuongTuyen, int maTieuChi, int thoiGianDangTuyen)
+        {
+            PhieuDangTuyen pdt = new PhieuDangTuyen
+            {
+                 MaSoThue = maSoThue,
+                 ViTriUngTuyen = viTriUngTuyen,
+                 SoLuongTuyen = soLuongTuyen,
+                 MaTieuChi = maTieuChi,
+                 NgayDK = DateTime.Today.ToString("yyyy-MM-dd"),
+                 ThoiGianDangTuyen = thoiGianDangTuyen,
+                 TinhTrangHopLe = null,
+            };
+            int dt = pdtDAO.Insert(pdt);
             return dt;
         }
     }
