@@ -13,14 +13,6 @@ namespace WindowsFormsApp1.BUS
 {
     internal class UngVienBUS
     {
-        public DataTable LayDanhSach()
-        {
-            HttpClient client = ThietLapThongTinAPI();
-            var response = client.GetStringAsync("DoanhNghiep/getList").Result;
-            var data = JsonConvert.DeserializeObject<DataTable>(response);
-            return data;
-        }
-
         public DataTable LayDanhSachMaUV()
         {
             HttpClient client = ThietLapThongTinAPI();

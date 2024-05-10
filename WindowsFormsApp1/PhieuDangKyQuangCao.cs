@@ -63,7 +63,7 @@ namespace WindowsFormsApp1
                     MaHTDT = row["MaHTDT"].ToString();
                 }
             }
-            var IsExist = pqc.KTPhieuDangTuyen(comboBox2.Text);
+            var IsExist = pqc.KTPhieuDangKyQuangCao(comboBox2.Text);
             if (IsExist == 1)
             {
                 MessageBox.Show("Phieu quang cao da ton tai");

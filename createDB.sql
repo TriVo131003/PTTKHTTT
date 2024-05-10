@@ -134,14 +134,14 @@ CREATE TABLE TieuChiDoanhNghiep (
 
 CREATE TABLE UuDai (
     MaUuDai INT AUTO_INCREMENT PRIMARY KEY,
-    MaDNTiemNang varchar(13),
     ThongTinUuDai varchar(255)
 );
 
 CREATE TABLE DoanhNghiepCanGiaHan (
-    MaDN varchar(13),
+    MaDN varchar(13) primary key,
     CoLaDNTiemNang nvarchar(10),
-    CoLaDNTiemNangLon nvarchar(10)
+    CoLaDNTiemNangLon nvarchar(10),
+    MaUuDai int
 );
 
 CREATE TABLE HinhThucDangTuyen (	
@@ -210,9 +210,13 @@ ADD CONSTRAINT fk_DoanhNghiepCanGiaHan_DoanhNghiep
 FOREIGN KEY (MaDN) REFERENCES DoanhNghiep(MaSoThue);
 
 -- Adding foreign keys for table 'UuDai'
-ALTER TABLE UuDai
-ADD CONSTRAINT fk_UuDai_DoanhNghiepTiemNang
-FOREIGN KEY (MaDNTiemNang) REFERENCES DoanhNghiepCanGiaHan(MaDN);
+ALTER TABLE DoanhNghiepCanGiaHan
+ADD CONSTRAINT fk_DoanhNghiepCanGiaHan_UuDai
+FOREIGN KEY (MaUuDai) REFERENCES UuDai(MaUuDai);
+
+-- ALTER TABLE UuDai
+-- ADD CONSTRAINT fk_UuDai_DoanhNghiepTiemNang
+-- FOREIGN KEY (MaDNTiemNang) REFERENCES DoanhNghiepCanGiaHan(MaDN);
 
 -- INSERT INTO DoanhNghiep
 -- VALUES ('VNG', '7 district, HCM', 'vng@gmail.com');

@@ -30,19 +30,5 @@ namespace WebApplication1.DAO
               "Values('{0}', '{1}', '{2}')", pdkut.MaPTTDT, pdkut.MaUV, pdkut.NgayLapPhieu);
             return ExecuteNonQuery(sql);
         }
-
-        public int Update(UngVien uv)
-        {
-            string sql = string.Format("Update UngVien Set HoTen='{1}', NgaySinh='{2}', SDT={3} " +
-                "Where MaUV={0}", uv.MaUV, uv.HoTen, uv.NgaySinh, uv.SDT);
-            return ExecuteNonQuery(sql);
-        }
-
-        public int Delete(string MaUV)
-        {
-            string sql = string.Format("Delete from UngVien " +
-               "Where MaUV={0}", MaUV);
-            return ExecuteNonQuery(sql);
-        }
     }
 }

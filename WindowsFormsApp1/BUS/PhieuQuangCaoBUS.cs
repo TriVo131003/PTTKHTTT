@@ -30,7 +30,7 @@ namespace WindowsFormsApp1.BUS
             return response.IsSuccessStatusCode;
         }
 
-        public int KTPhieuDangTuyen(string MaPTTDT)
+        public int KTPhieuDangKyQuangCao(string MaPTTDT)
         {
             HttpClient client = ThietLapThongTinAPI();
 
