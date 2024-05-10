@@ -84,3 +84,7 @@ D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsA
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HienThiPhieuDangTuyen.resources
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HienThiPhieuQuangCao.resources
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.Up2Date
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangKyThanhVienUngVien.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangKyUngTuyenCuaUngVien.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DanhSachTieuChiDoanhNghiep.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LapDanhSachDoanhNghiepTiemNang.resources

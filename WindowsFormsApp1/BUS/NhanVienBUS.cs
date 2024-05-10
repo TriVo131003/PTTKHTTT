@@ -12,11 +12,11 @@ namespace WindowsFormsApp1.BUS
 {
     internal class NhanVienBUS
     {
-        public DataTable LayDanhSach()
+        public DataTable LayThongTin(string MaNV)
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("DoanhNghiep/getList").Result;
+            var response = client.GetStringAsync($"NhanVien/Login/{MaNV}").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }

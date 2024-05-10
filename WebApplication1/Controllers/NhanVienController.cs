@@ -1,18 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
-using System.Web.Mvc;
+using WebApplication1.DAO;
 
 namespace WebApplication1.Controllers
 {
-    public class NhanVienController : Controller
+    public class NhanVienController : ApiController
     {
-        // GET: NhanVien
-        public ActionResult Index()
+        NhanVienDAO nvDao = new NhanVienDAO();
+
+        [Route("api/NhanVien/Login/{MaNV}")]
+        [HttpGet]
+        public DataTable LayThongTinDangNhap(String MaNV)
         {
-            return View();
+            var dt = nvDao.getNhanVien(MaNV);
+            return dt;
         }
     }
 }

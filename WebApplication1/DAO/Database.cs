@@ -11,9 +11,6 @@ namespace WebApplication1.DAO
         protected DataTable getDataTable(string sql)
         {
             MySqlConnection connection = new MySqlConnection(path);
-            //connection.Open();
-            //cmd.ExecuteNonQuery();
-
             MySqlDataAdapter adapter = new MySqlDataAdapter(sql, connection);
             DataTable table = new DataTable();
             adapter.Fill(table);

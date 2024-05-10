@@ -7,6 +7,7 @@ using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1.BUS
 {
@@ -23,13 +24,10 @@ namespace WindowsFormsApp1.BUS
         public bool themUngVien(string hoTen, string sdt, string ngaySinh)
         {
             HttpClient client = ThietLapThongTinAPI();
-            var doanhNghiep = new { hoTen = hoTen, sdt = sdt, ngaySinh = ngaySinh };
-            var content = new StringContent(JsonConvert.SerializeObject(doanhNghiep), System.Text.Encoding.UTF8, "application/json");
-            var response = client.PostAsync("UngVien/", content).Result;
+            string url = $"?hoTen={hoTen}&sdt={sdt}&ngaySinh={ngaySinh}";
+            var response = client.PostAsync("UngVien/them" + url, null).Result;
             return response.IsSuccessStatusCode;
         }
-
-
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

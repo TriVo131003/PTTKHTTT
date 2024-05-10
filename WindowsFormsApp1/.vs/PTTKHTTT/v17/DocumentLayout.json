@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\phieuthongtindangtuyen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:phieuthongtindangtuyen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\dangkythanhvienungvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:dangkythanhvienungvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\bus\\ungvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:bus\\ungvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\phieuthongtindangtuyen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:phieuthongtindangtuyen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\phieudangkyquangcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:phieudangkyquangcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\dangkyungtuyencuaungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -55,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:dangkyungtuyencuaungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\bus\\phieudangtuyenbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:bus\\phieudangtuyenbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\bus\\ungvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:bus\\ungvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\bus\\phieuquangcaobus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,28 +107,12 @@
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:bus\\doanhnghiepbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\giahanhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:giahanhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|solutionrelative:dangkythanhvienungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\doanhnghiepcangiahanhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:doanhnghiepcangiahanhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|WindowsFormsApp1.csproj|D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\lapdanhsachdoanhnghieptiemnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -139,6 +139,22 @@
     },
     {
       "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:1:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:2:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:phieuthongtindangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\giahanhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:giahanhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|d:\\college\\information system analysis and design\\project\\pttkhttt\\windowsformsapp1\\giahanhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{49E03489-A25F-4BC0-8704-BEB9A371FA00}|PTTKHTTT.csproj|solutionrelative:giahanhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -148,11 +164,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DangKyThanhVienUngVien.Designer.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.Designer.cs",
+              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.Designer.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.Designer.cs",
+              "RelativeToolTip": "DangKyThanhVienUngVien.Designer.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAawFoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:20:10.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVienBUS.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\NhanVienBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\NhanVienBUS.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\NhanVienBUS.cs",
+              "RelativeToolTip": "BUS\\NhanVienBUS.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T07:56:16.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UngVienBUS.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\UngVienBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\UngVienBUS.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\UngVienBUS.cs",
+              "RelativeToolTip": "BUS\\UngVienBUS.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T07:59:10.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangKyThanhVienUngVien.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
+              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
+              "RelativeToolTip": "DangKyThanhVienUngVien.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:58:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T08:28:47.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:42:23.092Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:42:10.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PhieuThongTinDangTuyen.cs [Design]",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs",
+              "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs [Design]",
+              "RelativeToolTip": "PhieuThongTinDangTuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T08:42:54.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DangKyThanhVienUngVien.cs [Design]",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
+              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs [Design]",
+              "RelativeToolTip": "DangKyThanhVienUngVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:58:04.706Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Login.Designer.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.Designer.cs",
+              "RelativeToolTip": "Login.Designer.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAawH4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:18:30.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PhieuThongTinDangTuyen.Designer.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.Designer.cs",
+              "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.Designer.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.Designer.cs",
+              "RelativeToolTip": "PhieuThongTinDangTuyen.Designer.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAnwLgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T15:16:34.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PhieuThongTinDangTuyen.Designer.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.Designer.cs",
               "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.Designer.cs",
@@ -160,12 +314,22 @@
               "RelativeToolTip": "PhieuThongTinDangTuyen.Designer.cs",
               "ViewState": "AQIAAKwAAAAAAAAAAAAawLwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:36:28.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T16:36:28.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "PhieuDangKyQuangCao.cs [Design]",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs",
+              "RelativeDocumentMoniker": "PhieuDangKyQuangCao.cs",
+              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:24:06.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PhieuThongTinDangTuyen.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs",
               "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.cs",
@@ -177,40 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DangKyThanhVienUngVien.cs [Design]",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
-              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:58:04.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhieuDangKyQuangCao.cs [Design]",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs",
-              "RelativeDocumentMoniker": "PhieuDangKyQuangCao.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\gitproj\\PTTKHTTT\\WindowsFormsApp1\\PhieuDangKyQuangCao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T08:24:06.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PhieuThongTinDangTuyen.cs [Design]",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs",
-              "RelativeDocumentMoniker": "PhieuThongTinDangTuyen.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\PhieuThongTinDangTuyen.cs [Design]",
-              "RelativeToolTip": "PhieuThongTinDangTuyen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T08:42:54.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "DangKyUngTuyenCuaUngVien.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyUngTuyenCuaUngVien.cs",
               "RelativeDocumentMoniker": "DangKyUngTuyenCuaUngVien.cs",
@@ -221,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "DoanhNghiepCanGiaHanHD.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DoanhNghiepCanGiaHanHD.cs",
               "RelativeDocumentMoniker": "DoanhNghiepCanGiaHanHD.cs",
@@ -232,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "HienThiPhieuDangTuyen.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\HienThiPhieuDangTuyen.cs",
               "RelativeDocumentMoniker": "HienThiPhieuDangTuyen.cs",
@@ -243,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "HienThiPhieuQuangCao.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\HienThiPhieuQuangCao.cs",
               "RelativeDocumentMoniker": "HienThiPhieuQuangCao.cs",
@@ -254,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "LapDanhSachDoanhNghiepTiemNang.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\LapDanhSachDoanhNghiepTiemNang.cs",
               "RelativeDocumentMoniker": "LapDanhSachDoanhNghiepTiemNang.cs",
@@ -265,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "DNTiemNang.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DNTiemNang.cs",
               "RelativeDocumentMoniker": "DNTiemNang.cs",
@@ -277,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "DNTiemNang.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DNTiemNang.cs",
               "RelativeDocumentMoniker": "DNTiemNang.cs",
@@ -288,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "DangKyUngTuyenCuaUngVien.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyUngTuyenCuaUngVien.cs",
               "RelativeDocumentMoniker": "DangKyUngTuyenCuaUngVien.cs",
@@ -300,19 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UngVienBUS.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\UngVienBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\UngVienBUS.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\UngVienBUS.cs",
-              "RelativeToolTip": "BUS\\UngVienBUS.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T07:59:10.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "PhieuDangTuyenBUS.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\PhieuDangTuyenBUS.cs",
               "RelativeDocumentMoniker": "BUS\\PhieuDangTuyenBUS.cs",
@@ -324,31 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T08:28:47.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NhanVienBUS.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\NhanVienBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\NhanVienBUS.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\NhanVienBUS.cs",
-              "RelativeToolTip": "BUS\\NhanVienBUS.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T07:56:16.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "PhieuQuangCaoBUS.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\PhieuQuangCaoBUS.cs",
               "RelativeDocumentMoniker": "BUS\\PhieuQuangCaoBUS.cs",
@@ -360,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "HopDongTuyenDungBUS.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\HopDongTuyenDungBUS.cs",
               "RelativeDocumentMoniker": "BUS\\HopDongTuyenDungBUS.cs",
@@ -372,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "HinhThucDangTuyenBUS.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\HinhThucDangTuyenBUS.cs",
               "RelativeDocumentMoniker": "BUS\\HinhThucDangTuyenBUS.cs",
@@ -384,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "DoanhNghiepTiemNangBUS.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\DoanhNghiepTiemNangBUS.cs",
               "RelativeDocumentMoniker": "BUS\\DoanhNghiepTiemNangBUS.cs",
@@ -396,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "DoanhNghiepBUS.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\BUS\\DoanhNghiepBUS.cs",
               "RelativeDocumentMoniker": "BUS\\DoanhNghiepBUS.cs",
@@ -408,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "GiaHanHopDong.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs",
               "RelativeDocumentMoniker": "GiaHanHopDong.cs",
@@ -416,18 +511,8 @@
               "RelativeToolTip": "GiaHanHopDong.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:57:55.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\Login.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:42:23.092Z"
+              "WhenOpened": "2024-05-08T15:57:55.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -435,22 +520,24 @@
               "Title": "GiaHanHopDong.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs",
               "RelativeDocumentMoniker": "GiaHanHopDong.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs [Design]",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs [Design]",
+              "RelativeToolTip": "GiaHanHopDong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T08:10:46.929Z"
+              "WhenOpened": "2024-05-08T08:10:46.929Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DangKyThanhVienUngVien.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
-              "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
-              "RelativeToolTip": "DangKyThanhVienUngVien.cs",
+              "DocumentIndex": 38,
+              "Title": "GiaHanHopDong.cs",
+              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs",
+              "RelativeDocumentMoniker": "GiaHanHopDong.cs",
+              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\GiaHanHopDong.cs",
+              "RelativeToolTip": "GiaHanHopDong.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:58:06.779Z"
+              "WhenOpened": "2024-05-08T15:58:06.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -466,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DoanhNghiepCanGiaHanHD.cs",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DoanhNghiepCanGiaHanHD.cs",
               "RelativeDocumentMoniker": "DoanhNghiepCanGiaHanHD.cs",
@@ -489,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DangKyThanhVienUngVien.cs [Design]",
               "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\DangKyThanhVienUngVien.cs",
               "RelativeDocumentMoniker": "DangKyThanhVienUngVien.cs",
@@ -508,18 +595,6 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WindowsFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T08:19:58.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\COLLEGE\\Information System Analysis and Design\\Project\\PTTKHTTT\\WindowsFormsApp1\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAnwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:42:10.239Z"
             },
             {
               "$type": "Document",

@@ -17,36 +17,25 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             thongBaoLabel.Visible = false;
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-                String hoTen = hoTenTextBox.Text;
-                String sdt = sdtTextBox.Text;
+            String hoTen = hoTenTextBox.Text;
+            String sdt = sdtTextBox.Text;
             DateTime ngaySinh = ngaySinhPicker.Value;
-                if (string.IsNullOrEmpty(hoTen) || string.IsNullOrEmpty(sdt))
-                {
+            if (string.IsNullOrEmpty(hoTen) || string.IsNullOrEmpty(sdt))
+            {
                 // MessageBox.Show("Bạn chưa điền đủ hết các trường");
                 thongBaoLabel.Visible = true;
                 thongBaoLabel.ForeColor = Color.Red;
                 thongBaoLabel.Text = "Bạn chưa điền đủ hết các trường";
-                    return; 
-                }
-                UngVienBUS ungVienBUS = new UngVienBUS();
-            bool result = ungVienBUS.themUngVien(hoTen, sdt, ngaySinh.ToString());
-            MessageBox.Show(ngaySinh.ToString());
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
+                return;
+            }
+            UngVienBUS ungVienBUS = new UngVienBUS();
+            bool result = ungVienBUS.themUngVien(hoTen, sdt, ngaySinh.ToString("yyyy-MM-dd"));
+            if (result) MessageBox.Show("Đã đăng ký thành công");
+            else MessageBox.Show("Đăng ký thất bại");
         }
     }
 }
