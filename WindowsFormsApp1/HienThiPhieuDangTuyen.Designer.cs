@@ -92,7 +92,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 413);
             this.Controls.Add(this.groupBox2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HienThiPhieuDangTuyen";
             this.Text = "HienThiPhieuDangTuyen";
             this.Load += new System.EventHandler(this.HienThiPhieuDangTuyen_Load);

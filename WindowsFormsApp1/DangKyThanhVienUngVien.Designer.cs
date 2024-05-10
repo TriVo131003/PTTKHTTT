@@ -130,6 +130,7 @@
             this.Controls.Add(this.hoTenTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DangKyThanhVienUngVien";
             this.Text = "DangKyThanhVienUngVien";
             this.Load += new System.EventHandler(this.DangKyThanhVienUngVien_Load);

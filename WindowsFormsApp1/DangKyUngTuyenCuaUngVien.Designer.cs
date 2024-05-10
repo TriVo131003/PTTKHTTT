@@ -139,6 +139,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PTTDTDataGrid);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DangKyUngTuyenCuaUngVien";
             this.Text = "DangKyUngTuyenCuaUngVien";
             ((System.ComponentModel.ISupportInitialize)(this.PTTDTDataGrid)).EndInit();
