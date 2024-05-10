@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class GiaHanHopDong : Form
+    public partial class NhanVien_MENU : Form
     {
-        public GiaHanHopDong()
+        public NhanVien_MENU()
         {
             InitializeComponent();
         }

@@ -30,10 +30,21 @@ namespace WindowsFormsApp1
                 Program.TenNV = row["HoTen"].ToString();
                 string dbUsername = row["MaNhanVien"].ToString();
                 string dbPassword = row["passwordNV"].ToString();
-
                 if (username == dbUsername && password == dbPassword)
                 {
-                    MessageBox.Show("Login successful " + row["roleNV"].ToString());
+                    this.Hide();
+                    if (row["roleNV"].ToString().Contains("Nhan Vien"))
+                    {
+                        NhanVien_MENU userTab = new NhanVien_MENU();
+                        userTab.Closed += (s, args) => this.Show();
+                        userTab.Show();
+                    }
+                    if (row["roleNV"].ToString().Contains("Giam Doc"))
+                    {
+                        GiamDoc_MENU userTab = new GiamDoc_MENU();
+                        userTab.Closed += (s, args) => this.Show();
+                        userTab.Show();
+                    }
                 }
                 else
                 {

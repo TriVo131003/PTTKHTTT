@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
             string MaHTDT = "";
             foreach (DataRow row in dsHTDT.Rows)
             {
-                if(comboBox3.Text == row["TenHTDT"].ToString())
+                if(comboBox3.Text.Equals(row["TenHTDT"].ToString()))
                 {
                     MaHTDT = row["MaHTDT"].ToString();
                 }

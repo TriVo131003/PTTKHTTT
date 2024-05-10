@@ -18,7 +18,6 @@ D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsA
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\PTTKHTTT.csproj.AssemblyReference.cache
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DNTiemNang.resources
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DoanhNghiepCanGiaHanHD.resources
-D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.GiaHanHopDong.resources
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HienThiPhieuDangTuyen.resources
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HienThiPhieuQuangCao.resources
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
@@ -90,3 +89,5 @@ D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsA
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LapDanhSachDoanhNghiepTiemNang.resources
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DanhSachTieuChiDoanhNghiep.resources
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LapDanhSachDoanhNghiepTiemNang.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.GiamDoc_MENU.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NhanVien_MENU.resources

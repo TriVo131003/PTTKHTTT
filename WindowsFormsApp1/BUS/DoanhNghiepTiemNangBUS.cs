@@ -12,15 +12,36 @@ namespace WindowsFormsApp1.BUS
 {
     internal class DoanhNghiepTiemNangBUS
     {
-        public DataTable LayDanhSach()
+        public DataTable LayDanhSachTN()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("DoanhNghiep/getList").Result;
+            var response = client.GetStringAsync("DoanhNghiepTiemNang/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
+        public DataTable LayDanhSachGiaHan()
+        {
+            HttpClient client = ThietLapThongTinAPI();
 
+            var response = client.GetStringAsync("DoanhNghiepGiaHan/getList").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            return data;
+        }
+        public bool themDNTN(string MaDN)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+            string url = $"?MaDN={MaDN}";
+            var response = client.PostAsync("DoanhNghiepTiemNang/them" + url, null).Result;
+            return response.IsSuccessStatusCode;
+        }
+        public bool themDNTNLon(string MaDN, string MaUuDai)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+            string url = $"?MaDN={MaDN}&MaUuDai={MaUuDai}";
+            var response = client.PostAsync("DoanhNghiepTiemNangLon/them" + url, null).Result;
+            return response.IsSuccessStatusCode;
+        }
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class
