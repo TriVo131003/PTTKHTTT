@@ -96,8 +96,6 @@ namespace WindowsFormsApp1
             {
                 comboBox2.Items.Add(row["MaPTTDT"].ToString());
             }
-            
-
         }
     }
 }

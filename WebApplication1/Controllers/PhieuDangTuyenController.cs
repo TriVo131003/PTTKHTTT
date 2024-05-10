@@ -25,6 +25,9 @@ namespace WebApplication1.Controllers
         public DataTable LayDSTheoMST(String MaSoThue)
         {
             var dt = pdtDAO.DSPhieuTheoMST(MaSoThue);
+            return dt;
+        }
+
         [Route("api/PhieuDangTuyen/them")]
         [HttpPost]
         public int ThemPhieuDangTuyen(string maSoThue,string viTriUngTuyen, int soLuongTuyen, int maTieuChi, int thoiGianDangTuyen)
