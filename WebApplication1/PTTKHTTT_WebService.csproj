@@ -186,6 +186,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HinhThucDangTuyenController.cs" />
+    <Compile Include="Controllers\PhieuDKUngTuyenController.cs" />
     <Compile Include="Controllers\TieuChiDoanhNghiepController.cs" />
     <Compile Include="Controllers\DoanhNghiepController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="DAO\Database.cs" />
     <Compile Include="DAO\HinhThucDangTuyenDAO.cs" />
     <Compile Include="DAO\NhanVienDAO.cs" />
+    <Compile Include="DAO\PhieuDKUngTuyenDAO.cs" />
     <Compile Include="DAO\TieuChiDoanhNghiepDAO.cs" />
     <Compile Include="DAO\DoanhNghiepDAO.cs" />
     <Compile Include="DAO\PhieuDangTuyenDAO.cs" />
@@ -205,6 +207,7 @@
     <Compile Include="DTO\PhieuDangTuyen.cs" />
     <Compile Include="DTO\DoanhNghiep.cs" />
     <Compile Include="DTO\PhieuDangKyQuangCao.cs" />
+    <Compile Include="DTO\PhieuDKUngTuyen.cs" />
     <Compile Include="DTO\UngVien.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -1,78 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\",
+  "WorkspaceRootPath": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\gitproj\\pttkhttt\\webapplication1\\controllers\\phieudangtuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\controllers\\tieuchidoanhnghiepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\tieuchidoanhnghiepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\dao\\tieuchidoanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\tieuchidoanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\controllers\\phieudangtuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\phieudangtuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\dao\\phieudangtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\phieudangtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\controllers\\phieudangkyquangcaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\phieudangkyquangcaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\dao\\phieudangkyquangcaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\phieudangkyquangcaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:Controllers\\DoanhNghiepController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dto\\ungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dto\\ungvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dao\\phieudangtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\phieudangtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:1:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\controllers\\ungviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\controllers\\ungviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\ungviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\controllers\\phieudkungtuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:controllers\\phieudkungtuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dto\\doanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dto\\doanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\dao\\phieudangtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\phieudangtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dto\\phieudangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dto\\phieudangtuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dao\\doanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\dao\\doanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\doanhnghiepdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dao\\ungviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\ungviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\dao\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|d:\\study at university\\schoolyear3\\semeter2\\pttkhttt\\doan\\pttkhttt\\webapplication1\\dao\\phieudkungtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77249142-5520-488D-B11D-1C94E02E3111}|PTTKHTTT_WebService.csproj|solutionrelative:dao\\phieudkungtuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,315 +55,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PhieuDangTuyenController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDangTuyenController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PhieuDangTuyenController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDangTuyenController.cs",
-              "RelativeToolTip": "Controllers\\PhieuDangTuyenController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Title": "TieuChiDoanhNghiepController.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\TieuChiDoanhNghiepController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TieuChiDoanhNghiepController.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\TieuChiDoanhNghiepController.cs",
+              "RelativeToolTip": "Controllers\\TieuChiDoanhNghiepController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:43:15.678Z",
+              "WhenOpened": "2024-05-10T08:29:04.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NhanVienController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\NhanVienController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\NhanVienController.cs",
-              "RelativeToolTip": "Controllers\\NhanVienController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "TieuChiDoanhNghiepDAO.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\TieuChiDoanhNghiepDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\TieuChiDoanhNghiepDAO.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\TieuChiDoanhNghiepDAO.cs",
+              "RelativeToolTip": "DAO\\TieuChiDoanhNghiepDAO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:14:26.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoanhNghiepController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoanhNghiepController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs",
-              "RelativeToolTip": "Controllers\\DoanhNghiepController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:13:37.995Z"
+              "WhenOpened": "2024-05-10T09:02:44.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UngVien.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DTO\\UngVien.cs",
-              "RelativeDocumentMoniker": "DTO\\UngVien.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DTO\\UngVien.cs",
-              "RelativeToolTip": "DTO\\UngVien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Title": "PhieuDangKyQuangCaoDAO.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDangKyQuangCaoDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\PhieuDangKyQuangCaoDAO.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDangKyQuangCaoDAO.cs",
+              "RelativeToolTip": "DAO\\PhieuDangKyQuangCaoDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:58:24.432Z"
+              "WhenOpened": "2024-05-10T08:47:29.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PhieuDangTuyenDAO.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDangTuyenDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\PhieuDangTuyenDAO.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDangTuyenDAO.cs",
-              "RelativeToolTip": "DAO\\PhieuDangTuyenDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:10:09.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PhieuDangKyQuangCaoController.cs",
               "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDangKyQuangCaoController.cs",
               "RelativeDocumentMoniker": "Controllers\\PhieuDangKyQuangCaoController.cs",
               "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDangKyQuangCaoController.cs",
               "RelativeToolTip": "Controllers\\PhieuDangKyQuangCaoController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABBAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:42:36.785Z"
+              "WhenOpened": "2024-05-10T08:29:00.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "PhieuDangTuyenController.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDangTuyenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PhieuDangTuyenController.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDangTuyenController.cs",
+              "RelativeToolTip": "Controllers\\PhieuDangTuyenController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:26:05.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UngVienController.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\UngVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UngVienController.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\UngVienController.cs",
+              "RelativeToolTip": "Controllers\\UngVienController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:29:35.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhieuDKUngTuyenController.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDKUngTuyenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PhieuDKUngTuyenController.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuDKUngTuyenController.cs",
+              "RelativeToolTip": "Controllers\\PhieuDKUngTuyenController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:14:44.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PhieuDangTuyenDAO.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDangTuyenDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\PhieuDangTuyenDAO.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDangTuyenDAO.cs",
+              "RelativeToolTip": "DAO\\PhieuDangTuyenDAO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:24:37.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DoanhNghiepDAO.cs",
               "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\DoanhNghiepDAO.cs",
               "RelativeDocumentMoniker": "DAO\\DoanhNghiepDAO.cs",
               "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\DoanhNghiepDAO.cs",
               "RelativeToolTip": "DAO\\DoanhNghiepDAO.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwCoAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T20:30:13.677Z"
+              "WhenOpened": "2024-05-10T08:22:33.832Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:49:05.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:10:30.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:49:04.86Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UngVienController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\UngVienController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UngVienController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\UngVienController.cs",
-              "RelativeToolTip": "Controllers\\UngVienController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Title": "PhieuDKUngTuyenDAO.cs",
+              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDKUngTuyenDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\PhieuDKUngTuyenDAO.cs",
+              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DAO\\PhieuDKUngTuyenDAO.cs",
+              "RelativeToolTip": "DAO\\PhieuDKUngTuyenDAO.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:14:13.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UngVien.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DTO\\UngVien.cs",
-              "RelativeDocumentMoniker": "DTO\\UngVien.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\DTO\\UngVien.cs",
-              "RelativeToolTip": "DTO\\UngVien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:58:24.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DoanhNghiepController.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoanhNghiepController.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\DoanhNghiepController.cs",
-              "RelativeToolTip": "Controllers\\DoanhNghiepController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:13:37.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NhanVienController.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\NhanVienController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\NhanVienController.cs",
-              "RelativeToolTip": "Controllers\\NhanVienController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:14:26.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T21:59:20.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T07:01:18.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:49:04.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "Controllers\\ValuesController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAuwCMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T22:00:33.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DoanhNghiep.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DTO\\DoanhNghiep.cs",
-              "RelativeDocumentMoniker": "DTO\\DoanhNghiep.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DTO\\DoanhNghiep.cs",
-              "RelativeToolTip": "DTO\\DoanhNghiep.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T20:22:18.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PhieuDangTuyen.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DTO\\PhieuDangTuyen.cs",
-              "RelativeDocumentMoniker": "DTO\\PhieuDangTuyen.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DTO\\PhieuDangTuyen.cs",
-              "RelativeToolTip": "DTO\\PhieuDangTuyen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:10:02.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PhieuController.cs",
-              "DocumentMoniker": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuController.cs",
-              "ToolTip": "D:\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuController.cs",
-              "RelativeToolTip": "..\\..\\..\\STUDY AT UNIVERSITY\\SchoolYear3\\Semeter2\\PTTKHTTT\\DoAn\\PTTKHTTT\\WebApplication1\\Controllers\\PhieuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:15:27.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DoanhNghiepDAO.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\DoanhNghiepDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\DoanhNghiepDAO.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\DoanhNghiepDAO.cs",
-              "RelativeToolTip": "DAO\\DoanhNghiepDAO.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T20:30:13.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UngVienDAO.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\UngVienDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\UngVienDAO.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\UngVienDAO.cs",
-              "RelativeToolTip": "DAO\\UngVienDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:49:05.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Database.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\Database.cs",
-              "RelativeDocumentMoniker": "DAO\\Database.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\DAO\\Database.cs",
-              "RelativeToolTip": "DAO\\Database.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:37:30.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T21:57:25.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\gitproj\\PTTKHTTT\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:10:22.368Z"
+              "WhenOpened": "2024-05-10T08:16:58.728Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -134,14 +134,15 @@ CREATE TABLE TieuChiDoanhNghiep (
 
 CREATE TABLE UuDai (
     MaUuDai INT AUTO_INCREMENT PRIMARY KEY,
-    MaDNTiemNang varchar(13),
+    
     ThongTinUuDai varchar(255)
 );
 
 CREATE TABLE DoanhNghiepCanGiaHan (
-    MaDN varchar(13),
+    MaDN varchar(13) primary key,
     CoLaDNTiemNang nvarchar(10),
-    CoLaDNTiemNangLon nvarchar(10)
+    CoLaDNTiemNangLon nvarchar(10),
+    MaUuDai INT
 );
 
 CREATE TABLE HinhThucDangTuyen (	
