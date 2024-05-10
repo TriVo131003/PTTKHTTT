@@ -68,6 +68,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Tìm kiếm";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -94,6 +95,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "HienThiPhieuDangTuyen";
             this.Text = "HienThiPhieuDangTuyen";
+            this.Load += new System.EventHandler(this.HienThiPhieuDangTuyen_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

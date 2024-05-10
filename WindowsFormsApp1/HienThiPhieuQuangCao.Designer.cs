@@ -94,6 +94,7 @@
             this.Controls.Add(this.groupBox2);
             this.Name = "HienThiPhieuQuangCao";
             this.Text = "HienThiPhieuQuangCao";
+            this.Load += new System.EventHandler(this.HienThiPhieuQuangCao_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

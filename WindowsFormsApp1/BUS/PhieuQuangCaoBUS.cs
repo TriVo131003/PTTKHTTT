@@ -21,6 +21,14 @@ namespace WindowsFormsApp1.BUS
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
+        public DataTable LayDSTheoMST(String MaSoThue)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            var response = client.GetStringAsync($"PhieuDangKyQuangCao/DSPhieuTheoMST/{MaSoThue}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            return data;
+        }
         public bool themPhieuQuangCao(string ThoiGianDangTuyen, string MaPTTDT, string MaHTDT)
         {
             HttpClient client = ThietLapThongTinAPI();
