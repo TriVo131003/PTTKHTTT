@@ -14,7 +14,7 @@ namespace WindowsFormsApp1.BUS
     {
         public DataTable LayDanhSach()
         {
-            HttpClient client = new HttpClient();
+            HttpClient client = ThietLapThongTinAPI();
 
             var response = client.GetStringAsync("PhieuDangTuyen/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);

@@ -35,6 +35,8 @@
             this.DKBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.MaPTTDTTxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.MaUVCB = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.PTTDTDataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +53,7 @@
             // PTTDTDataGrid
             // 
             this.PTTDTDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.PTTDTDataGrid.Location = new System.Drawing.Point(46, 118);
+            this.PTTDTDataGrid.Location = new System.Drawing.Point(46, 120);
             this.PTTDTDataGrid.Name = "PTTDTDataGrid";
             this.PTTDTDataGrid.RowHeadersWidth = 51;
             this.PTTDTDataGrid.RowTemplate.Height = 24;
@@ -80,7 +82,7 @@
             // 
             // DKBtn
             // 
-            this.DKBtn.Location = new System.Drawing.Point(331, 394);
+            this.DKBtn.Location = new System.Drawing.Point(331, 446);
             this.DKBtn.Name = "DKBtn";
             this.DKBtn.Size = new System.Drawing.Size(75, 23);
             this.DKBtn.TabIndex = 37;
@@ -104,13 +106,32 @@
             this.MaPTTDTTxt.Size = new System.Drawing.Size(100, 22);
             this.MaPTTDTTxt.TabIndex = 39;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(109, 415);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 16);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "Mã ứng viên:";
+            // 
+            // MaUVCB
+            // 
+            this.MaUVCB.FormattingEnabled = true;
+            this.MaUVCB.Location = new System.Drawing.Point(198, 407);
+            this.MaUVCB.Name = "MaUVCB";
+            this.MaUVCB.Size = new System.Drawing.Size(100, 24);
+            this.MaUVCB.TabIndex = 41;
+            // 
             // DangKyUngTuyenCuaUngVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(800, 431);
+            this.ClientSize = new System.Drawing.Size(800, 505);
+            this.Controls.Add(this.MaUVCB);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.MaPTTDTTxt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.DKBtn);
@@ -134,5 +155,7 @@
         private System.Windows.Forms.Button DKBtn;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox MaPTTDTTxt;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox MaUVCB;
     }
 }

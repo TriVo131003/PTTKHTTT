@@ -88,3 +88,6 @@ D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsA
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangKyUngTuyenCuaUngVien.resources
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DanhSachTieuChiDoanhNghiep.resources
 D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LapDanhSachDoanhNghiepTiemNang.resources
+C:\HCMUS\NAM3\hk2\ADIS\project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangKyThanhVienUngVien.resources
+C:\HCMUS\NAM3\hk2\ADIS\project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DanhSachTieuChiDoanhNghiep.resources
+C:\HCMUS\NAM3\hk2\ADIS\project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LapDanhSachDoanhNghiepTiemNang.resources

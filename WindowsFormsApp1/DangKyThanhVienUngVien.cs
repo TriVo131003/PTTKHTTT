@@ -26,16 +26,37 @@ namespace WindowsFormsApp1
             DateTime ngaySinh = ngaySinhPicker.Value;
             if (string.IsNullOrEmpty(hoTen) || string.IsNullOrEmpty(sdt))
             {
-                // MessageBox.Show("Bạn chưa điền đủ hết các trường");
-                thongBaoLabel.Visible = true;
-                thongBaoLabel.ForeColor = Color.Red;
-                thongBaoLabel.Text = "Bạn chưa điền đủ hết các trường";
+                ThongBao("Bạn chưa điền đủ hết các trường", Color.Red);
                 return;
             }
             UngVienBUS ungVienBUS = new UngVienBUS();
+            if (ungVienBUS.KiemTraTonTaiSDT(hoTen, sdt, ngaySinh.ToString("yyyy-MM-dd")))
+            {
+                ThongBao("Đã có số điện thoại", Color.Red);
+                return;
+            }
             bool result = ungVienBUS.themUngVien(hoTen, sdt, ngaySinh.ToString("yyyy-MM-dd"));
-            if (result) MessageBox.Show("Đã đăng ký thành công");
-            else MessageBox.Show("Đăng ký thất bại");
+            if (result) ThongBao("Đăng ký thành công", Color.Blue);
+            else ThongBao("Đăng ký thất bại", Color.Red);
         }
+
+        private void ThongBao(string thongBao, Color color)
+        {
+            thongBaoLabel.Visible = true;
+            thongBaoLabel.ForeColor = color;
+            thongBaoLabel.Text = thongBao;
+
+            Timer timer = new Timer();
+            timer.Interval = 2000; 
+            timer.Tick += OnTimeout;
+            timer.Start();
+        }
+
+        private void OnTimeout(object sender, EventArgs e)
+        {
+            thongBaoLabel.Visible = false;
+            ((Timer)sender).Stop();
+        }
+
     }
 }
