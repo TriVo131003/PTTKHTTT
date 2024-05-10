@@ -30,7 +30,7 @@ namespace WebApplication1.Controllers
                  ViTriUngTuyen = viTriUngTuyen,
                  SoLuongTuyen = soLuongTuyen,
                  MaTieuChi = maTieuChi,
-                 NgayDK = DateTime.Today.ToString("MM/dd/yyyy"),
+                 NgayDK = DateTime.Today.ToString("yyyy-MM-dd"),
                  ThoiGianDangTuyen = thoiGianDangTuyen,
                  TinhTrangHopLe = null,
             };

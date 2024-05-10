@@ -59,9 +59,7 @@ namespace WindowsFormsApp1
             int maTieuChi = Convert.ToInt32(comboBox1.Text);
             int thoiGianDangTuyen = Convert.ToInt32(textBox3.Text);
 
-            //bool success = pdtBUS.themPhieuDangTuyen(maSoThue, viTriUngTuyen, soLuongTuyen, maTieuChi, thoiGianDangTuyen);
-
-            bool success = pdtBUS.themPhieuDangTuyen("101214161", "tmp", 1, 1, 1);
+            bool success = pdtBUS.themPhieuDangTuyen(maSoThue, viTriUngTuyen, soLuongTuyen, maTieuChi, thoiGianDangTuyen);
 
             if (success)
             {
@@ -76,6 +74,14 @@ namespace WindowsFormsApp1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox5.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
         }
     }
 }
