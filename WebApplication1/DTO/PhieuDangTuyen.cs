@@ -13,7 +13,7 @@ namespace WebApplication1.DTO
         public string ViTriUngTuyen { get; set; }
         public int SoLuongTuyen { get; set; }
         public int MaTieuChi { get; set; }
-        public DateTime NgayDK { get; set; }
+        public string NgayDK { get; set; }
         public int ThoiGianDangTuyen { get; set; }
         public string TinhTrangHopLe { get; set; }
     }
