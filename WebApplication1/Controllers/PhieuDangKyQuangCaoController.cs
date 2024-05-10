@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using WebApplication1.DAO;
+using WebApplication1.DTO;
 
 namespace WebApplication1.Controllers
 {
@@ -21,11 +22,25 @@ namespace WebApplication1.Controllers
         }
 
 
-        [Route("api/PhieuDangKyQuangCao/getAccordingTo/{MaPDT}")]
+        [Route("api/PhieuDangKyQuangCao/KT/{MaPTTDT}")]
         [HttpGet]
-        public DataTable LayPhieuDangTuyen(String MaPDT)
+        public int KTPhieuQuangCao(String MaPTTDT)
         {
-            var dt = pdkDAO.getListTheoCongTy(MaPDT);
+            var dt = pdkDAO.KTPhieuQuangCao(MaPTTDT);
+            return int.Parse(dt.Rows[0]["cnt"].ToString());
+        }
+
+        [Route("api/PhieuDangKyQuangCao/addNew")]
+        [HttpPost]
+        public int themPhieuQuangCao(string ThoiGianDangTuyen, string MaPTTDT, string MaHTDT)
+        {
+            PhieuDangKyQuangCao pdkqc = new PhieuDangKyQuangCao
+            {
+                ThoiGianDangTuyen = ThoiGianDangTuyen,
+                MaPTTDT = int.Parse(MaPTTDT),
+                MaHTDT = int.Parse(MaHTDT)
+            };
+            int dt = pdkDAO.Insert(pdkqc);
             return dt;
         }
     }

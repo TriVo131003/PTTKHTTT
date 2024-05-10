@@ -20,6 +20,14 @@ namespace WebApplication1.Controllers
             return dt;
         }
 
+        [Route("api/PhieuDangTuyen/DSPhieuTheoMST/{MaSoThue}")]
+        [HttpGet]
+        public DataTable LayDSTheoMST(String MaSoThue)
+        {
+            var dt = pdtDAO.DSPhieuTheoMST(MaSoThue);
+            return dt;
+        }
+
         [Route("api/PhieuDangTuyen/them")]
         [HttpPost]
         public int ThemPhieuDangTuyen(string maSoThue,string viTriUngTuyen, int soLuongTuyen, int maTieuChi, int thoiGianDangTuyen)

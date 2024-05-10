@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
 
         private void btnTim_Click(object sender, EventArgs e)
         {
-            dataGridView2.DataSource = pcbus.LayTheoPhieuDangTuyen(textBox2.Text);
+            // dataGridView2.DataSource = pcbus.LayTheoPhieuDangTuyen(textBox2.Text);
         }
     }
 }
