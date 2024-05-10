@@ -191,6 +191,7 @@
     <Compile Include="Controllers\NhanVienController.cs" />
     <Compile Include="Controllers\PhieuDangTuyenController.cs" />
     <Compile Include="Controllers\PhieuDangKyQuangCaoController.cs" />
+    <Compile Include="Controllers\PhieuDKUngTuyenController.cs" />
     <Compile Include="Controllers\UngVienController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DAO\Database.cs" />
@@ -199,9 +200,11 @@
     <Compile Include="DAO\DoanhNghiepDAO.cs" />
     <Compile Include="DAO\PhieuDangTuyenDAO.cs" />
     <Compile Include="DAO\PhieuDangKyQuangCaoDAO.cs" />
+    <Compile Include="DAO\PhieuDKUngTuyenDAO.cs" />
     <Compile Include="DAO\UngVienDAO.cs" />
     <Compile Include="DTO\PhieuDangTuyen.cs" />
     <Compile Include="DTO\DoanhNghiep.cs" />
+    <Compile Include="DTO\PhieuDKUngTuyen.cs" />
     <Compile Include="DTO\UngVien.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

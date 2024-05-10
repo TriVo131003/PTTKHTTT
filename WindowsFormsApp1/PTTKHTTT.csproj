@@ -57,6 +57,7 @@
     <Compile Include="BUS\NhanVienBUS.cs" />
     <Compile Include="BUS\PhieuDangTuyenBUS.cs" />
     <Compile Include="BUS\PhieuQuangCaoBUS.cs" />
+    <Compile Include="BUS\PhieuDKUngTuyenBUS.cs" />
     <Compile Include="BUS\UngVienBUS.cs" />
     <Compile Include="DangKyThanhVienUngVien.cs">
       <SubType>Form</SubType>

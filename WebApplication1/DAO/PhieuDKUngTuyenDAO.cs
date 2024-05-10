@@ -3,36 +3,32 @@ using System.Collections.Generic;
 using System.Data;
 using System.Web;
 using WebApplication1.DTO;
-using System.Web.Services.Description;
-
 
 namespace WebApplication1.DAO
 {
-    public class UngVienDAO : Database
+    public class PhieuDKUngTuyenDAO : Database
     {
         public DataTable getList()
         {
-            string sql = "Select * from UngVien";
+            string sql = "Select * from PhieuDKUngTuyen";
             return getDataTable(sql);
         }
         public DataTable getListMa()
         {
-            string sql = "Select MaUV from UngVien";
+            string sql = "Select MaDKUT from PhieuDKUngTuyen";
+            return getDataTable(sql);
+        }
+        public DataTable getListKiemTraThem(string MaPTTDT, string MaUV)
+        {
+            string sql = string.Format("Select Count(*) as count from PhieuDKUngTuyen where MaPTTDT = {0} and MaUV = {1}", MaPTTDT, MaUV);
             return getDataTable(sql);
         }
 
-        public int Insert(UngVien uv)
+        public int Insert(PhieuDKUngTuyen pdkut)
         {
-            string sql = string.Format("Insert Into UngVien(HoTen, SDT, NgaySinh)" +
-              "Values('{0}', '{1}', '{2}')", uv.HoTen, uv.SDT, uv.NgaySinh);
+            string sql = string.Format("Insert Into PhieuDKUngTuyen(MaPTTDT, MaUV, NgayLapPhieu)" +
+              "Values('{0}', '{1}', '{2}')", pdkut.MaPTTDT, pdkut.MaUV, pdkut.NgayLapPhieu);
             return ExecuteNonQuery(sql);
-        }
-        
-        public DataTable KiemTraTonTaiSDT(UngVien uv)
-        {
-            string sql = string.Format("select 1 from UngVien where SDT = '{0}'", uv.SDT);
-
-            return getDataTable(sql);
         }
 
         public int Update(UngVien uv)
