@@ -19,5 +19,13 @@ namespace WebApplication1.Controllers
             var dt = pdtDAO.getList();
             return dt;
         }
+
+        [Route("api/PhieuDangTuyen/DSPhieuTheoMST/{MaSoThue}")]
+        [HttpGet]
+        public DataTable LayDSTheoMST(String MaSoThue)
+        {
+            var dt = pdtDAO.DSPhieuTheoMST(MaSoThue);
+            return dt;
+        }
     }
 }

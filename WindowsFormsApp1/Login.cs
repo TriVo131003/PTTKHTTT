@@ -27,6 +27,7 @@ namespace WindowsFormsApp1
             if (info.Rows.Count > 0)
             {
                 DataRow row = info.Rows[0];
+                Program.TenNV = row["HoTen"].ToString();
                 string dbUsername = row["MaNhanVien"].ToString();
                 string dbPassword = row["passwordNV"].ToString();
 

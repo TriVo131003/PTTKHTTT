@@ -12,11 +12,11 @@ namespace WindowsFormsApp1.BUS
 {
     internal class HinhThucDangTuyenBUS
     {
-        public DataTable LayDanhSach()
+        public DataTable LayHTDT()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("DoanhNghiep/getList").Result;
+            var response = client.GetStringAsync("HTDT/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
@@ -34,5 +34,7 @@ namespace WindowsFormsApp1.BUS
                 new MediaTypeWithQualityHeaderValue("application/json"));
             return client;
         }
+
+
     }
 }

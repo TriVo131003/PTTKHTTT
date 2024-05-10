@@ -22,19 +22,10 @@ namespace WebApplication1.DAO
                 pdt.MaSoThue, pdt.ViTriUngTuyen, pdt.SoLuongTuyen, pdt.MaTieuChi, pdt.NgayDK, pdt.ThoiGianDangTuyen, pdt.TinhTrangHopLe);
             return ExecuteNonQuery(sql);
         }
-
-        public int Update(UngVien uv)
+        public DataTable DSPhieuTheoMST(string MaSoThue)
         {
-            string sql = string.Format("Update UngVien Set HoTen='{1}', NgaySinh='{2}', SDT={3} " +
-                "Where MaUV={0}", uv.MaUV, uv.HoTen, uv.NgaySinh.ToString(), uv.SDT);
-            return ExecuteNonQuery(sql);
-        }
-
-        public int Delete(string MaUV)
-        {
-            string sql = string.Format("Delete from UngVien " +
-               "Where MaUV={0}", MaUV);
-            return ExecuteNonQuery(sql);
+            string sql = string.Format("Select * from PhieuDangTuyen Where MaSoThue='{0}'", MaSoThue);
+            return getDataTable(sql);
         }
     }
 }
