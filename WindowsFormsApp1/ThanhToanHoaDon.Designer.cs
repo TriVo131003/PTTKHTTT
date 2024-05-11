@@ -87,6 +87,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Tìm";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // comboBox1
             // 
@@ -112,6 +113,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(278, 24);
             this.comboBox2.TabIndex = 7;
+            this.comboBox2.TextChanged += new System.EventHandler(this.LoaiThanhToan_OnTextChanged);
             // 
             // button2
             // 
@@ -163,6 +165,7 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(278, 24);
             this.comboBox3.TabIndex = 13;
+            this.comboBox3.TextChanged += new System.EventHandler(this.MaPhieuDangTuyen_OnTextChanged);
             // 
             // ThanhToanHoaDon
             // 

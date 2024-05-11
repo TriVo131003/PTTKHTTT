@@ -3,6 +3,8 @@ using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Data;
 using Newtonsoft.Json;
+using System.Windows.Forms.VisualStyles;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1.BUS
 {
@@ -40,20 +42,54 @@ namespace WindowsFormsApp1.BUS
 
             var response = client.GetStringAsync($"PhieuThongTinThanhToan/{MaPTTDT}").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
+            int TongTienCanThanhToan = 0;
+            if (data.Rows.Count > 0)
+            {
+                TongTienCanThanhToan = int.Parse(data.Rows[0]["TongSoTien"].ToString());
+            }
+
+            else
+            {
+                MessageBox.Show("Chua co phieu thong tin thanh toan");
+                return 0;
+            }
+
+            int MaPhieuTTTT = int.Parse(data.Rows[0]["MaPhieuTTTT"].ToString());
+
+            HttpClient client2 = ThietLapThongTinAPI();
+            var response1 = client2.GetStringAsync($"HoaDon/{MaPhieuTTTT}").Result;
+            var data1 = JsonConvert.DeserializeObject<DataTable>(response1);
+            int tiendathanhtoan = 0;
+            if(data1.Rows.Count > 0)
+            {
+                foreach (DataRow hdrow in data1.Rows)
+                {
+                    tiendathanhtoan += int.Parse(hdrow["SoTien"].ToString());
+                }
+            }
+            
+            
+            if(tiendathanhtoan == TongTienCanThanhToan)
+            {
+                return 0;
+            }
+            return TongTienCanThanhToan - tiendathanhtoan;
+        }
+
+        public int SoTienDuThanhToanTungDot(int soTien, string MaPTTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            var response = client.GetStringAsync($"PhieuThongTinThanhToan/{MaPTTDT}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
 
             int TongTienCanThanhToan = int.Parse(data.Rows[0]["TongSoTien"].ToString());
 
-            int MaPTTTT = int.Parse(data.Rows[0]["MaPhieuTTTT"].ToString());
+            if((soTien*100/TongTienCanThanhToan)>10)
+            { return 1; }
 
-            var response1 = client.GetStringAsync($"HoaDon/{MaPTTTT}").Result;
-            var data1 = JsonConvert.DeserializeObject<DataTable>(response);
             return 0;
         }
-
-        //public int SoTienCanThanhToan(int SoNgayDT, int DonGia)
-        //{
-        //    return SoNgayDT * DonGia;
-        //}
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

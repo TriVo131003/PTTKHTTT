@@ -10,15 +10,15 @@ using WebApplication1.DTO;
 
 namespace WebApplication1.Controllers
 {
-    public class PhieuThongTinThanhToanController : ApiController
+    public class HoaDonController : ApiController
     {
-        PhieuThongTinThanhToanDAO pttttDAO = new PhieuThongTinThanhToanDAO();
+        HoaDonDAO hdDAO = new HoaDonDAO();
 
-        [Route("api/PhieuThongTinThanhToan/{MaPTTDT}")]
+        [Route("api/HoaDon/{MaPhieuTTTT}")]
         [HttpGet]
-        public DataTable LayDanhSachPTTTT(string MaPTTDT)
+        public DataTable LayDanhSachHD(string MaPhieuTTTT)
         {
-            var dt = pttttDAO.getList(MaPTTDT);
+            var dt = hdDAO.getList(MaPhieuTTTT);
             return dt;
         }
     }

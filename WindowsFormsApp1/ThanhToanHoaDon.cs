@@ -21,7 +21,9 @@ namespace WindowsFormsApp1
         HinhThucDangTuyenBUS htdt = new HinhThucDangTuyenBUS();
         public static DataTable dsPhieuDangTuyen;
         public static DataTable dsHTTT;
-        int SoNgayDangTuyen = 0;
+        public int SoNgayDangTuyen = 0;
+        public int tiencanthanhtoan = 0;
+        public string maPDT = "";
         public ThanhToanHoaDon()
         {
             InitializeComponent();
@@ -34,7 +36,7 @@ namespace WindowsFormsApp1
             dsHTTT = httt.LayHTTT();
             foreach (DataRow row in dsHTTT.Rows)
             {
-                comboBox2.Items.Add(row["TenHTTT"].ToString());
+                comboBox1.Items.Add(row["TenHTTT"].ToString());
             }
         }
         private void btnTim_Click(object sender, EventArgs e)
@@ -56,17 +58,28 @@ namespace WindowsFormsApp1
         }
         private void MaPhieuDangTuyen_OnTextChanged(object sender, EventArgs e)
         {
-            string maPDT = "";
+            maPDT = "";
+            tiencanthanhtoan = 0;
             foreach(DataRow rows in dsPhieuDangTuyen.Rows)
             {
                 maPDT = comboBox3.Text;
                 if (maPDT.Equals(rows["MaPTTDT"].ToString()))
                 {
-                    
-                    textBox2.Text = ptttt.SoTienThanhToan(maPDT).ToString();
+                    SoNgayDangTuyen = int.Parse(rows["ThoiGianDangTuyen"].ToString());
+                    tiencanthanhtoan = int.Parse(ptttt.SoTienThanhToan(maPDT).ToString());
+                    if (tiencanthanhtoan <= 0)
+                    {
+                        MessageBox.Show("Da hoan tat thanh toan");
+                    }
+                    textBox2.Text = tiencanthanhtoan.ToString();
                     return;
                 }
             }            
+        }
+
+        private void LoaiThanhToan_OnTextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

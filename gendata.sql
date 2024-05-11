@@ -117,8 +117,12 @@ VALUES
     (3, 9, '2024-02-25'),
     (1, 10, '2024-02-25');
     
-    
-select PhieuDangKyQuangCao;
+
+insert into PhieuThongTinThanhToan(TongSoTien, MaPTTDT)
+values (30000 , 1);
+
+select * from  PhieuDangKyQuangCao;
+select * from HinhThucDangTuyen;
 -- UNG VIEN
 INSERT INTO UngVien (HoTen, NgaySinh, SDT)
 VALUES
