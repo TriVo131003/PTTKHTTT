@@ -119,3 +119,5 @@ D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsA
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NhanVien_MENU.resources
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PhieuThongTinThanhToan.resources
 D:\STUDY AT UNIVERSITY\SchoolYear3\Semeter2\PTTKHTTT\DoAn\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThanhToanHoaDon.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PhieuThongTinThanhToan.resources
+D:\COLLEGE\Information System Analysis and Design\Project\PTTKHTTT\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThanhToanHoaDon.resources

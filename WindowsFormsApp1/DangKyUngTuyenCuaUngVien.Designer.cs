@@ -84,7 +84,7 @@
             // 
             this.DKBtn.Location = new System.Drawing.Point(331, 446);
             this.DKBtn.Name = "DKBtn";
-            this.DKBtn.Size = new System.Drawing.Size(75, 23);
+            this.DKBtn.Size = new System.Drawing.Size(75, 27);
             this.DKBtn.TabIndex = 37;
             this.DKBtn.Text = "Đăng ký ứng tuyển";
             this.DKBtn.UseVisualStyleBackColor = true;

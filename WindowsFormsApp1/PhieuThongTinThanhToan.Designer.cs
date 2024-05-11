@@ -129,11 +129,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã số thuế";
             // 
-            // ThanhToan
+            // PhieuThongTinThanhToan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 408);
+            this.ClientSize = new System.Drawing.Size(1206, 471);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
@@ -144,7 +144,8 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
-            this.Name = "ThanhToan";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "PhieuThongTinThanhToan";
             this.Text = "ThanhToan";
             this.Load += new System.EventHandler(this.ThanhToan_Load);
             this.ResumeLayout(false);

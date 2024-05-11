@@ -53,6 +53,16 @@ namespace WindowsFormsApp1
             phieuThongTinDangTuyen.TopLevel = false;
             panel7.Controls.Add(phieuThongTinDangTuyen);
             phieuThongTinDangTuyen.Show();
+
+            PhieuThongTinThanhToan phieuThongTinThanhToan = new PhieuThongTinThanhToan();
+            phieuThongTinThanhToan.TopLevel = false;
+            panel8.Controls.Add(phieuThongTinThanhToan);
+            phieuThongTinThanhToan.Show();
+
+            ThanhToanHoaDon thanhToanHoaDon = new ThanhToanHoaDon();
+            thanhToanHoaDon.TopLevel = false;
+            panel9.Controls.Add(thanhToanHoaDon);
+            thanhToanHoaDon.Show();
         }
     }
 }
