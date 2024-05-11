@@ -48,6 +48,10 @@ CREATE TABLE DoanhNghiep (
     LaDNTN int,
     LaDNTNLon int
 );
+ALTER TABLE DoanhNghiep
+MODIFY COLUMN TenCongTy NVARCHAR(50) NOT NULL,
+MODIFY COLUMN DiaChi NVARCHAR(255) NOT NULL,
+MODIFY COLUMN Email VARCHAR(50) NOT NULL;
 
 CREATE TABLE UngVien (
     MaUV INT AUTO_INCREMENT PRIMARY KEY,
@@ -62,6 +66,14 @@ CREATE TABLE NhanVien (
     passwordNV varchar(20),
     roleNV nvarchar(20)
 );
+
+ALTER TABLE NhanVien
+MODIFY COLUMN HoTen NVARCHAR(50) NOT NULL,
+MODIFY COLUMN passwordNV VARCHAR(20) NOT NULL,
+MODIFY COLUMN roleNV NVARCHAR(20) NOT NULL;
+ALTER TABLE NhanVien
+ADD CONSTRAINT chk_roleNV_ValidValues CHECK (roleNV IN ('Giam Doc', 'Nhan Vien'));
+
 
 CREATE TABLE PhieuDangKyThanhVienCuaUngVien (
     MaPhieuDK_UV INT AUTO_INCREMENT PRIMARY KEY,
@@ -117,6 +129,8 @@ CREATE TABLE HinhThucThanhToan (
     MaHTTT INT AUTO_INCREMENT PRIMARY KEY,
     TenHTTT varchar(50)
 );
+ALTER TABLE HinhThucThanhToan
+MODIFY COLUMN TenHTTT VARCHAR(50) NOT NULL;
 
 CREATE TABLE PhieuThongTinThanhToan (
     MaPhieuTTTT INT AUTO_INCREMENT PRIMARY KEY,
@@ -125,6 +139,13 @@ CREATE TABLE PhieuThongTinThanhToan (
     MaPTTDT int
 );
 
+ALTER TABLE PhieuThongTinThanhToan
+MODIFY COLUMN TongSoTien INT NOT NULL,
+MODIFY COLUMN TinhTrangThanhToan VARCHAR(10) NOT NULL;
+ALTER TABLE PhieuThongTinThanhToan
+ADD CONSTRAINT chk_TinhTrangThanhToan_ValidValues CHECK (TinhTrangThanhToan IN ('Chua thanh toan', 'Da thanh toan'));
+
+
 CREATE TABLE TieuChiDoanhNghiep (
     MaTieuChi INT AUTO_INCREMENT PRIMARY KEY,
     SoNamKN int,
@@ -132,10 +153,20 @@ CREATE TABLE TieuChiDoanhNghiep (
     GPA int
 );
 
+ALTER TABLE TieuChiDoanhNghiep
+MODIFY COLUMN SoNamKN INT NOT NULL,
+MODIFY COLUMN BacHoc VARCHAR(50) NOT NULL,
+MODIFY COLUMN GPA INT NOT NULL;
+ALTER TABLE TieuChiDoanhNghiep
+ADD CONSTRAINT chk_SoNamKN_NonNegative CHECK (SoNamKN >= 0),
+ADD CONSTRAINT chk_GPA_NonNegative CHECK (GPA >= 0);
+
 CREATE TABLE UuDai (
     MaUuDai INT AUTO_INCREMENT PRIMARY KEY,
     ThongTinUuDai varchar(255)
 );
+ALTER TABLE UuDai
+MODIFY COLUMN ThongTinUuDai VARCHAR(255) NOT NULL;
 
 CREATE TABLE DoanhNghiepCanGiaHan (
     MaDN varchar(13) primary key,
@@ -149,7 +180,11 @@ CREATE TABLE HinhThucDangTuyen (
     TenHTDT varchar(255), 
     DonGia int
 );
-
+ALTER TABLE HinhThucDangTuyen
+MODIFY COLUMN TenHTDT VARCHAR(255) NOT NULL,
+MODIFY COLUMN DonGia INT NOT NULL;
+ALTER TABLE HinhThucDangTuyen
+ADD CONSTRAINT chk_DonGia_NonNegative CHECK (DonGia >= 0);
 
 -- After all tables are created, add foreign key constraints
 -- Adding foreign keys for table 'HoSoUngVien'
@@ -178,6 +213,9 @@ FOREIGN KEY (MaUV) REFERENCES UngVien(MaUV);
 ALTER TABLE PhieuDangTuyen
 ADD CONSTRAINT fk_PhieuDangTuyen_TieuChi
 FOREIGN KEY (MaTieuChi) REFERENCES TieuChiDoanhNghiep(MaTieuChi);
+ALTER TABLE PhieuDangTuyen
+ADD CONSTRAINT fk_PhieuDangTuyen_MaSoThue
+FOREIGN KEY (MaSoThue) REFERENCES DoanhNghiep(MaSoThue);
 
 -- Adding foreign keys for table 'PhieuDangKyQuangCao'
 ALTER TABLE PhieuDangKyQuangCao
@@ -214,9 +252,45 @@ ALTER TABLE DoanhNghiepCanGiaHan
 ADD CONSTRAINT fk_DoanhNghiepCanGiaHan_UuDai
 FOREIGN KEY (MaUuDai) REFERENCES UuDai(MaUuDai);
 
--- ALTER TABLE UuDai
--- ADD CONSTRAINT fk_UuDai_DoanhNghiepTiemNang
--- FOREIGN KEY (MaDNTiemNang) REFERENCES DoanhNghiepCanGiaHan(MaDN);
+-- RBTV
+ALTER TABLE PhieuDangTuyen
+MODIFY COLUMN MaSoThue varchar(13) NOT NULL,
+MODIFY COLUMN ViTriUngTuyen NVARCHAR(100) NOT NULL,
+MODIFY COLUMN SoLuongTuyen INT NOT NULL,
+MODIFY COLUMN MaTieuChi INT NOT NULL;
+-- MODIFY COLUMN NgayDK DATE NOT NULL;
+
+ALTER TABLE PhieuDangTuyen
+ADD CONSTRAINT chk_SoLuongTuyen CHECK (SoLuongTuyen > 0),
+ADD CONSTRAINT chk_ThoiGianDangTuyen CHECK (ThoiGianDangTuyen > 0),
+ADD CONSTRAINT chk_TinhTrangHopLe CHECK (TinhTrangHopLe IN ('Da het han', 'Hop le', 'Khong hop le') OR TinhTrangHopLe IS NULL);
+
+-- INSERT INTO PhieuDangTuyen(MaSoThue, ViTriUngTuyen, SoLuongTuyen, MaTieuChi, NgayDK, ThoiGianDangTuyen, TinhTrangHopLe)
+-- VALUES
+--     (123456789, 'Backend engineer', 10, 1, '2024-02-23', 10, null);
+
+ALTER TABLE UngVien
+MODIFY COLUMN HoTen NVARCHAR(50) NOT NULL,
+MODIFY COLUMN NgaySinh DATE NOT NULL,
+MODIFY COLUMN SDT CHAR(10) NOT NULL;
+
+ALTER TABLE UngVien
+ADD CONSTRAINT chk_SDT_LenghAndNumeric CHECK (LENGTH(SDT) = 10 AND SDT REGEXP '^[0-9]+$');
+
+ALTER TABLE PhieuDKUngTuyen
+MODIFY COLUMN MaPTTDT INT NOT NULL,
+MODIFY COLUMN MaUV INT NOT NULL,
+MODIFY COLUMN NgayLapPhieu DATE NOT NULL;
+
+ALTER TABLE PhieuDKUngTuyen
+ADD CONSTRAINT chk_TinhTrangXuLy_ValidValues CHECK (tinhTrangXuLy IN ('Da xu ly') OR tinhTrangXuLy IS NULL),
+ADD CONSTRAINT chk_TinhTrangXetDuyet_ValidValues CHECK (TinhTrangXetDuyet IN ('Da duyet') OR TinhTrangXetDuyet IS NULL),
+ADD CONSTRAINT chk_TinhTrangHoSo_ValidValues CHECK (TinhTrangHoSo IN ('dat', 'khong dat') OR TinhTrangHoSo IS NULL);
+
+
+
+
+
 
 -- INSERT INTO DoanhNghiep
 -- VALUES ('VNG', '7 district, HCM', 'vng@gmail.com');
