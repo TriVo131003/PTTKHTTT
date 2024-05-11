@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -58,7 +59,23 @@ namespace WindowsFormsApp1
             int soLuongTuyen = Convert.ToInt32(textBox2.Text);
             int maTieuChi = Convert.ToInt32(comboBox1.Text);
             int thoiGianDangTuyen = Convert.ToInt32(textBox3.Text);
-
+            DataTable data = dnBUS.LayTTDN(maSoThue);
+            if (data.Rows.Count == 0)
+            {
+                MessageBox.Show("Doanh nghiep chua dang ky");
+                return;
+            }
+            
+            if (soLuongTuyen <= 0)
+            {
+                MessageBox.Show("So Luong Tuyen > 0!");
+                return;
+            }
+            else if (thoiGianDangTuyen <= 0)
+            {
+                MessageBox.Show("Thoi gian dang tuyen >= 1!");
+                return;
+            }
             bool success = pdtBUS.themPhieuDangTuyen(maSoThue, viTriUngTuyen, soLuongTuyen, maTieuChi, thoiGianDangTuyen);
 
             if (success)

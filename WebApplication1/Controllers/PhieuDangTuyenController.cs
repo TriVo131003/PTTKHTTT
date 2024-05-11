@@ -39,8 +39,7 @@ namespace WebApplication1.Controllers
                  SoLuongTuyen = soLuongTuyen,
                  MaTieuChi = maTieuChi,
                  NgayDK = DateTime.Today.ToString("yyyy-MM-dd"),
-                 ThoiGianDangTuyen = thoiGianDangTuyen,
-                 TinhTrangHopLe = null,
+                 ThoiGianDangTuyen = thoiGianDangTuyen
             };
             int dt = pdtDAO.Insert(pdt);
             return dt;

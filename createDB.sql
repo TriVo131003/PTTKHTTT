@@ -213,6 +213,9 @@ FOREIGN KEY (MaUV) REFERENCES UngVien(MaUV);
 ALTER TABLE PhieuDangTuyen
 ADD CONSTRAINT fk_PhieuDangTuyen_TieuChi
 FOREIGN KEY (MaTieuChi) REFERENCES TieuChiDoanhNghiep(MaTieuChi);
+ALTER TABLE PhieuDangTuyen
+ADD CONSTRAINT fk_PhieuDangTuyen_MaSoThue
+FOREIGN KEY (MaSoThue) REFERENCES DoanhNghiep(MaSoThue);
 
 -- Adding foreign keys for table 'PhieuDangKyQuangCao'
 ALTER TABLE PhieuDangKyQuangCao
@@ -254,13 +257,17 @@ ALTER TABLE PhieuDangTuyen
 MODIFY COLUMN MaSoThue varchar(13) NOT NULL,
 MODIFY COLUMN ViTriUngTuyen NVARCHAR(100) NOT NULL,
 MODIFY COLUMN SoLuongTuyen INT NOT NULL,
-MODIFY COLUMN MaTieuChi INT NOT NULL,
-MODIFY COLUMN NgayDK DATE NOT NULL;
+MODIFY COLUMN MaTieuChi INT NOT NULL;
+-- MODIFY COLUMN NgayDK DATE NOT NULL;
 
 ALTER TABLE PhieuDangTuyen
 ADD CONSTRAINT chk_SoLuongTuyen CHECK (SoLuongTuyen > 0),
 ADD CONSTRAINT chk_ThoiGianDangTuyen CHECK (ThoiGianDangTuyen > 0),
 ADD CONSTRAINT chk_TinhTrangHopLe CHECK (TinhTrangHopLe IN ('Da het han', 'Hop le', 'Khong hop le') OR TinhTrangHopLe IS NULL);
+
+-- INSERT INTO PhieuDangTuyen(MaSoThue, ViTriUngTuyen, SoLuongTuyen, MaTieuChi, NgayDK, ThoiGianDangTuyen, TinhTrangHopLe)
+-- VALUES
+--     (123456789, 'Backend engineer', 10, 1, '2024-02-23', 10, null);
 
 ALTER TABLE UngVien
 MODIFY COLUMN HoTen NVARCHAR(50) NOT NULL,
