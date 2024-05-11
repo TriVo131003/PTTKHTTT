@@ -22,16 +22,19 @@ namespace WebApplication1.DAO
             MySqlConnection connection = new MySqlConnection(path);
             MySqlCommand command = new MySqlCommand(sql, connection);
             connection.Open();
-            try
-            {
-                var rs = command.ExecuteNonQuery();
-                connection.Close();
-                return rs;
-            }
-            catch (MySqlException ex)
-            {
-                return -1;
-            }
+            var rs = command.ExecuteNonQuery();
+            connection.Close();
+            return rs;
+            /*            try
+                        {
+                            var rs = command.ExecuteNonQuery();
+                            connection.Close();
+                            return rs;
+                        }
+                        catch
+                        {
+                            return -1;
+                        }*/
         }
     }
 }

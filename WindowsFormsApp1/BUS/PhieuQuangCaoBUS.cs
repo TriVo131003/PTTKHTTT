@@ -36,16 +36,16 @@ namespace WindowsFormsApp1.BUS
             string url = $"?MaPTTDT={MaPTTDT}&ThoiGianDangTuyen={ThoiGianDangTuyen}&MaHTDT={MaHTDT}";
             var response = client.PostAsync("PhieuDangKyQuangCao/addNew" + url, null).Result;
 
-            if (response.IsSuccessStatusCode)
+/*            if (response.IsSuccessStatusCode)
             {
                 var jsonString = response.Content.ReadAsStringAsync().Result;
                 return (jsonString != "-1");
             }
             return false;
-        }
+        }*/
 
-        //    return response.IsSuccessStatusCode;
-        //}
+            return response.IsSuccessStatusCode;
+        }
 
         public int KTPhieuDangKyQuangCao(string MaPTTDT)
         {
