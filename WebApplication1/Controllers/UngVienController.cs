@@ -18,7 +18,7 @@ namespace WebApplication1.Controllers
             DataTable dt = ungVienDAO.getListMa();
             return dt;
         }
-        // GET: UngVien
+
         UngVienDAO ungVienDAO = new UngVienDAO();
         [Route("api/UngVien/them")]
         [HttpPost]
