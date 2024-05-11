@@ -47,11 +47,10 @@ namespace WindowsFormsApp1.BUS
             {
                 TongTienCanThanhToan = int.Parse(data.Rows[0]["TongSoTien"].ToString());
             }
-
             else
             {
                 MessageBox.Show("Chua co phieu thong tin thanh toan");
-                return 0;
+                return -1;
             }
 
             int MaPhieuTTTT = int.Parse(data.Rows[0]["MaPhieuTTTT"].ToString());

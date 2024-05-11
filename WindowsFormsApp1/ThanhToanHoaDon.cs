@@ -58,6 +58,10 @@ namespace WindowsFormsApp1
         }
         private void MaPhieuDangTuyen_OnTextChanged(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                return;
+            }
             maPDT = "";
             tiencanthanhtoan = 0;
             foreach(DataRow rows in dsPhieuDangTuyen.Rows)
@@ -67,10 +71,14 @@ namespace WindowsFormsApp1
                 {
                     SoNgayDangTuyen = int.Parse(rows["ThoiGianDangTuyen"].ToString());
                     tiencanthanhtoan = int.Parse(ptttt.SoTienThanhToan(maPDT).ToString());
-                    if (tiencanthanhtoan <= 0)
+                    if (tiencanthanhtoan == 0)
                     {
                         MessageBox.Show("Da hoan tat thanh toan");
                     }
+                    if(tiencanthanhtoan == -1)
+                    {
+                        return;
+                    }    
                     textBox2.Text = tiencanthanhtoan.ToString();
                     return;
                 }
@@ -79,7 +87,48 @@ namespace WindowsFormsApp1
 
         private void LoaiThanhToan_OnTextChanged(object sender, EventArgs e)
         {
+            string LoaiThanhToan = comboBox2.Text;
+            if(!LoaiThanhToan.Equals("Thanh toán từng đợt") && !LoaiThanhToan.Equals("Thanh toán toàn bộ"))
+            {
+                return;
+            }
+            if (SoNgayDangTuyen < 30 && LoaiThanhToan.Equals("Thanh toán từng đợt"))
+            {
+                MessageBox.Show("Số ngày đăng tuyển không đủ điều kiện thanh toán từng đợt");
+                //comboBox3.Text = string.Empty;
+                return;
+            }
+            if(SoNgayDangTuyen >= 30 && LoaiThanhToan.Equals("Thanh toán từng đợt"))
+            {
+                if(ptttt.SoTienDuThanhToanTungDot(tiencanthanhtoan, maPDT) == 0)
+                {
+                    MessageBox.Show("Phai thanh toan toan bo chi phi con lai");
+                    return;
+                }
+            }
+        }
 
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                return;
+            }
+            if (string.IsNullOrEmpty(comboBox1.Text))
+            {
+                return;
+            }
+            if (string.IsNullOrEmpty(comboBox2.Text))
+            {
+                return;
+            }
+            if (string.IsNullOrEmpty(comboBox3.Text))
+            {
+                return;
+            }
+            if (string.IsNullOrEmpty(textBox2.Text)){
+                return;
+            }
         }
     }
 }
