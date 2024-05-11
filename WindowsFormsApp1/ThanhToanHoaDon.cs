@@ -46,6 +46,7 @@ namespace WindowsFormsApp1
             if (dsPhieuDangTuyen.Rows.Count > 0)
             {
                 MessageBox.Show("Tim thanh cong");
+                comboBox3.Items.Clear();
             }
             else
             {
@@ -78,12 +79,15 @@ namespace WindowsFormsApp1
                         comboBox3.SelectedItem = null;
                         return;
                     }
-                    if(tiencanthanhtoan == -1)
+                    if(tiencanthanhtoan <= -1)
                     {
-                        comboBox3.Text = string.Empty;
+                        comboBox3.SelectedItem = null;
+                        textBox2.Text = null;
                         return;
-                    }    
-                    textBox2.Text = tiencanthanhtoan.ToString();
+                    }
+                    else 
+                        
+                        textBox2.Text = tiencanthanhtoan.ToString();
                     return;
                 }
             }            
@@ -92,7 +96,7 @@ namespace WindowsFormsApp1
         private void LoaiThanhToan_OnTextChanged(object sender, EventArgs e)
         {
             string LoaiThanhToan = comboBox2.Text;
-            if(!LoaiThanhToan.Equals("Thanh toán từng đợt") && !LoaiThanhToan.Equals("Thanh toán toàn bộ"))
+            if (!LoaiThanhToan.Equals("Thanh toán từng đợt") && !LoaiThanhToan.Equals("Thanh toán toàn bộ"))
             {
                 return;
             }
@@ -102,17 +106,22 @@ namespace WindowsFormsApp1
                 comboBox2.SelectedItem = null;
                 return;
             }
-            if(SoNgayDangTuyen >= 30 && LoaiThanhToan.Equals("Thanh toán từng đợt"))
+            if (SoNgayDangTuyen >= 30 && LoaiThanhToan.Equals("Thanh toán từng đợt"))
             {
-                if(ptttt.SoTienDuThanhToanTungDot(tiencanthanhtoan, maPDT) == 0)
+                if (ptttt.SoTienDuThanhToanTungDot(tiencanthanhtoan, maPDT) == 0)
                 {
                     MessageBox.Show("Phai thanh toan toan bo chi phi con lai");
                     comboBox2.SelectedItem = null;
+                    tiencanthanhtoan = Convert.ToInt32(tiencanthanhtoan * 0.1);
                     return;
+                }
+                else
+                {
+                    tiencanthanhtoan = ptttt.SoTienCanThanhToanTheoDot(maPDT);
+                    textBox2.Text = tiencanthanhtoan.ToString();
                 }
             }
         }
-
         private void btnThem_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(textBox1.Text))
@@ -150,7 +159,7 @@ namespace WindowsFormsApp1
             }
             else if (comboBox2.Text.Equals("Thanh toán từng đợt")) {
                 coThanhToanTheoDot = "co";
-                soTien = ptttt.SoTienCanThanhToanTheoDot(maPDT);
+                soTien = tiencanthanhtoan;
             }
 
             int maNV = Convert.ToInt32(Program.MaNV);

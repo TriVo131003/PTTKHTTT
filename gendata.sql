@@ -87,6 +87,8 @@ select * from PhieuDangTuyen;
 select * from PhieuDangKyQuangCao;
 select * from PhieuThongTinThanhToan;
 select * from DoanhNghiepCanGiaHan;
+select * from HoaDon;
+delete from HoaDon where MaHoaDon > 10;
 
 INSERT INTO PhieuDangTuyen(MaSoThue, ViTriUngTuyen, SoLuongTuyen, MaTieuChi, NgayDK, ThoiGianDangTuyen, TinhTrangHopLe)
 VALUES

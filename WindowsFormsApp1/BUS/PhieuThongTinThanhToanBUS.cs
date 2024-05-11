@@ -73,8 +73,8 @@ namespace WindowsFormsApp1.BUS
                 {
                     tiendathanhtoan += int.Parse(hdrow["SoTien"].ToString());
                 }
-            }
-            
+                
+            }            
             
             if(tiendathanhtoan == TongTienCanThanhToan)
             {
