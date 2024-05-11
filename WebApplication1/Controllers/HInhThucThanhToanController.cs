@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
     {
         HinhThucThanhToanDAO htttDAO = new HinhThucThanhToanDAO();
 
-        [Route("api/HTDT/getList")]
+        [Route("api/HTTT/getList")]
         [HttpGet]
         public DataTable LayHTDT()
         {

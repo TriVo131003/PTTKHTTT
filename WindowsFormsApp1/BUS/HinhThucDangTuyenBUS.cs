@@ -21,6 +21,15 @@ namespace WindowsFormsApp1.BUS
             return data;
         }
 
+        public DataTable LayDonGia(string maHTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            var response = client.GetStringAsync($"HTDT/{maHTDT}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            return data;
+        }
+
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

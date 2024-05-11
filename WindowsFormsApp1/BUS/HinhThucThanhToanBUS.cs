@@ -8,11 +8,11 @@ namespace WindowsFormsApp1.BUS
 {
     public class HinhThucThanhToanBUS
     {
-        public DataTable LayDanhSach()
+        public DataTable LayHTTT()
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("DoanhNghiep/getList").Result;
+            var response = client.GetStringAsync("HTTT/getList").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }

@@ -189,6 +189,7 @@
     <Compile Include="Controllers\HinhThucDangTuyenController.cs" />
     <Compile Include="Controllers\HInhThucThanhToanController.cs" />
     <Compile Include="Controllers\PhieuDKUngTuyenController.cs" />
+    <Compile Include="Controllers\PhieuThongTinThanhToanController.cs" />
     <Compile Include="Controllers\TieuChiDoanhNghiepController.cs" />
     <Compile Include="Controllers\DoanhNghiepController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -204,6 +205,7 @@
     <Compile Include="DAO\HinhThucThanhToanDAO.cs" />
     <Compile Include="DAO\NhanVienDAO.cs" />
     <Compile Include="DAO\PhieuDKUngTuyenDAO.cs" />
+    <Compile Include="DAO\PhieuThongTinThanhToan.cs" />
     <Compile Include="DAO\TieuChiDoanhNghiepDAO.cs" />
     <Compile Include="DAO\DoanhNghiepDAO.cs" />
     <Compile Include="DAO\PhieuDangTuyenDAO.cs" />

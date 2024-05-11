@@ -18,6 +18,12 @@ namespace WebApplication1.DAO
             string sql = string.Format("Select * from PhieuDangKyQuangCao Where MaPTTDT in (Select MaPTTDT from PhieuDangTuyen Where MaSoThue='{0}')", MaSoThue);
             return getDataTable(sql);
         }
+
+        public DataTable PhieuQCTheoPDT(string MaPTTDT)
+        {
+            string sql = string.Format("Select * from PhieuDangKyQuangCao Where MaPTTDT = {0}", MaPTTDT);
+            return getDataTable(sql);
+        }
         public DataTable KTPhieuQuangCao(String MaPTTDT)
         {
             string sql = string.Format("Select count(*) as cnt from PhieuDangKyQuangCao where MaPTTDT = {0}", MaPTTDT);

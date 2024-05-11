@@ -13,5 +13,10 @@ namespace WebApplication1.DAO
             string sql = string.Format("Select * from HinhThucDangTuyen");
             return getDataTable(sql);
         }
+        public DataTable getDonGia(string MaHTDT)
+        {
+            string sql = string.Format("Select * from HinhThucDangTuyen where MaHTDT = {0}", MaHTDT);
+            return getDataTable(sql);
+        }
     }
 }
