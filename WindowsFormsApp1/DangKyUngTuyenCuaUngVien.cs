@@ -38,7 +38,11 @@ namespace WindowsFormsApp1
         private void PTTDTDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow row = PTTDTDataGrid.Rows[e.RowIndex];
-            MaPTTDTTxt.Text = row.Cells["MaPTTDT"].Value.ToString();
+            loadMaPTTDTTxt(row.Cells["MaPTTDT"].Value.ToString());
+        }
+        private void loadMaPTTDTTxt(string MaPTTDT)
+        {
+            MaPTTDTTxt.Text = MaPTTDT;
         }
 
         private void DKBtn_Click(object sender, EventArgs e)
@@ -53,11 +57,11 @@ namespace WindowsFormsApp1
             }
             PhieuDKUngTuyenBUS PhieuDKUTBUS = new PhieuDKUngTuyenBUS();
             if (PhieuDKUTBUS.kiemTraThemPDKUT(MaPDT, MaUV) > 0){
-                MessageBox.Show("Ững viên đã đăng ký phiếu đăng tuyển này");
+                MessageBox.Show("Ứng viên đã đăng ký phiếu đăng tuyển này");
                 return;
             }
             bool result = PhieuDKUTBUS.themPDKUT(MaPDT, MaUV, NgayLapPhieu);
-            if (result) MessageBox.Show("Đã đăng ký thành công");
+            if (result) MessageBox.Show("Đăng ký thành công");
             else MessageBox.Show("Đăng ký thất bại");
 
         }
