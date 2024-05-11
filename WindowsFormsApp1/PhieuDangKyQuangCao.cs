@@ -79,6 +79,8 @@ namespace WindowsFormsApp1
         {
             textBox1.Text = "";
             dateTimePicker1.Value = DateTime.Now;
+            comboBox2.Text = string.Empty;
+            comboBox3.Text = string.Empty;
         }
         private void btnTim_Click(object sender, EventArgs e)
         {
