@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUS\DoanhNghiepBUS.cs" />
+    <Compile Include="BUS\HinhThucThanhToanBUS.cs" />
+    <Compile Include="BUS\PhieuThongTinThanhToanBUS.cs" />
     <Compile Include="BUS\TieuChiDoanhNghiepBUS.cs" />
     <Compile Include="BUS\DoanhNghiepTiemNangBUS.cs" />
     <Compile Include="BUS\HinhThucDangTuyenBUS.cs" />
@@ -140,6 +142,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThanhToan.Designer.cs">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DangKyThanhVienUngVien.resx">
       <DependentUpon>DangKyThanhVienUngVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +196,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ThanhToan.resx">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

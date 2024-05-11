@@ -33,15 +33,31 @@ namespace WindowsFormsApp1.BUS
             HttpClient client = ThietLapThongTinAPI();
             string url = $"?MaDN={MaDN}";
             var response = client.PostAsync("DoanhNghiepTiemNang/them" + url, null).Result;
-            return response.IsSuccessStatusCode;
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonString = response.Content.ReadAsStringAsync().Result;
+                return (jsonString != "-1");
+            }
+            return false;
         }
+
+        //    return response.IsSuccessStatusCode;
+        //}
         public bool themDNTNLon(string MaDN, string MaUuDai)
         {
             HttpClient client = ThietLapThongTinAPI();
             string url = $"?MaDN={MaDN}&MaUuDai={MaUuDai}";
             var response = client.PostAsync("DoanhNghiepTiemNangLon/them" + url, null).Result;
-            return response.IsSuccessStatusCode;
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonString = response.Content.ReadAsStringAsync().Result;
+                return (jsonString != "-1");
+            }
+            return false;
         }
+
+        //    return response.IsSuccessStatusCode;
+        //}
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

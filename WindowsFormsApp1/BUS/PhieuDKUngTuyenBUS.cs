@@ -35,8 +35,15 @@ namespace WindowsFormsApp1.BUS
             HttpClient client = ThietLapThongTinAPI();
             string url = $"?MaPTTDT={MaPTTDT}&MaUV={MaUV}&NgayLapPhieu={NgayLapPhieu}";
             var response = client.PostAsync("PhieuDKUngTuyen/them" + url, null).Result;
-            return response.IsSuccessStatusCode;
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonString = response.Content.ReadAsStringAsync().Result;
+                return (jsonString != "-1");
+            }
+            return false;
         }
+        //    return response.IsSuccessStatusCode;
+        //}
         public int kiemTraThemPDKUT(string MaPTTDT, string MaUV)
         {
             HttpClient client = ThietLapThongTinAPI();
