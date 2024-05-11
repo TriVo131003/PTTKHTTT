@@ -36,14 +36,16 @@ namespace WindowsFormsApp1.BUS
             HttpClient client = ThietLapThongTinAPI();
             string url = $"?MaSoThue={maSoThue}&ViTriUngTuyen={viTriUngTuyen}&SoLuongTuyen={soLuongTuyen}&MaTieuChi={maTieuChi}&ThoiGianDangTuyen={thoiGianDangTuyen}";
             var response = client.PostAsync("PhieuDangTuyen/Them" + url, null).Result;
-            
+            return response.IsSuccessStatusCode;
             // them khuc nay vao la dc
-            if (response.IsSuccessStatusCode)
+/*            if (response.IsSuccessStatusCode)
             {
                 var jsonString = response.Content.ReadAsStringAsync().Result;
                 return (jsonString != "-1");
             }
-            return false;
+            return false;*/
+
+
         }
         private static HttpClient ThietLapThongTinAPI()
         {

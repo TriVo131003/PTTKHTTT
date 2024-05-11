@@ -37,9 +37,12 @@ namespace WindowsFormsApp1
         {
             string mst = textBox1.Text;
             DataTable data = dnBUS.LayTTDN(mst);
+            KiemtraTTDN(data);
+        }
+        private void KiemtraTTDN(DataTable data)
+        {
             ThongBao(data.Rows.Count > 0);
         }
-
         private void ThongBao(bool success)
         {
             if (success)
