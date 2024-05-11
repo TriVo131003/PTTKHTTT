@@ -9,6 +9,8 @@ namespace WindowsFormsApp1
     internal static class Program
     {
         public static string TenNV = "";
+        public static string MaNV = "";
+        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

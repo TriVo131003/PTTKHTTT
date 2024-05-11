@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
             {
                 DataRow row = info.Rows[0];
                 Program.TenNV = row["HoTen"].ToString();
+                Program.MaNV = row["MaNhanVien"].ToString();
                 string dbUsername = row["MaNhanVien"].ToString();
                 string dbPassword = row["passwordNV"].ToString();
                 if (username == dbUsername && password == dbPassword)
@@ -55,6 +56,11 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Invalid username or password");
             }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
