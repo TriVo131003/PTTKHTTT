@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="BUS\DoanhNghiepBUS.cs" />
     <Compile Include="BUS\HinhThucThanhToanBUS.cs" />
+    <Compile Include="BUS\HoaDonBUS.cs" />
     <Compile Include="BUS\PhieuThongTinThanhToanBUS.cs" />
     <Compile Include="BUS\TieuChiDoanhNghiepBUS.cs" />
     <Compile Include="BUS\DoanhNghiepTiemNangBUS.cs" />

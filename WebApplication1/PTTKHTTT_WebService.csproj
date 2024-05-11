@@ -214,10 +214,12 @@
     <Compile Include="DAO\PhieuDangKyQuangCaoDAO.cs" />
     <Compile Include="DAO\UngVienDAO.cs" />
     <Compile Include="DAO\UuDaiDAO.cs" />
+    <Compile Include="DTO\HoaDon.cs" />
     <Compile Include="DTO\PhieuDangTuyen.cs" />
     <Compile Include="DTO\DoanhNghiep.cs" />
     <Compile Include="DTO\PhieuDangKyQuangCao.cs" />
     <Compile Include="DTO\PhieuDKUngTuyen.cs" />
+    <Compile Include="DTO\PhieuThongTinThanhToan.cs" />
     <Compile Include="DTO\UngVien.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

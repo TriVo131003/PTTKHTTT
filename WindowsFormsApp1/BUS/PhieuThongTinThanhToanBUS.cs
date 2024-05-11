@@ -35,7 +35,15 @@ namespace WindowsFormsApp1.BUS
             return DonGia * Ngay;
         }
 
+        public int getMaPhieuTTTT1(string MaPTTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
 
+            var response = client.GetStringAsync($"PhieuThongTinThanhToan/{MaPTTDT}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+
+            return int.Parse(data.Rows[0]["MaPhieuTTTT"].ToString());
+        }
         public int SoTienThanhToan(string MaPTTDT)
         {
             HttpClient client = ThietLapThongTinAPI();
@@ -75,6 +83,43 @@ namespace WindowsFormsApp1.BUS
             return TongTienCanThanhToan - tiendathanhtoan;
         }
 
+        public int SoTienCanThanhToanTheoDot(string MaPTTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            var response = client.GetStringAsync($"PhieuThongTinThanhToan/{MaPTTDT}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            int TongTienCanThanhToan = 0;
+            if (data.Rows.Count > 0)
+            {
+                TongTienCanThanhToan = int.Parse(data.Rows[0]["TongSoTien"].ToString());
+            }
+            else
+            {
+                MessageBox.Show("Chua co phieu thong tin thanh toan");
+                return -1;
+            }
+
+            int MaPhieuTTTT = int.Parse(data.Rows[0]["MaPhieuTTTT"].ToString());
+
+            HttpClient client2 = ThietLapThongTinAPI();
+            var response1 = client2.GetStringAsync($"HoaDon/{MaPhieuTTTT}").Result;
+            var data1 = JsonConvert.DeserializeObject<DataTable>(response1);
+            int tiendathanhtoan = 0;
+            if (data1.Rows.Count > 0)
+            {
+                foreach (DataRow hdrow in data1.Rows)
+                {
+                    tiendathanhtoan += int.Parse(hdrow["SoTien"].ToString());
+                }
+            }
+
+            if (tiendathanhtoan == TongTienCanThanhToan)
+            {
+                return 0;
+            }
+            return Convert.ToInt32(TongTienCanThanhToan*0.3);
+        }
         public int SoTienDuThanhToanTungDot(int soTien, string MaPTTDT)
         {
             HttpClient client = ThietLapThongTinAPI();

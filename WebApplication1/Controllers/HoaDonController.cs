@@ -21,5 +21,22 @@ namespace WebApplication1.Controllers
             var dt = hdDAO.getList(MaPhieuTTTT);
             return dt;
         }
+
+        [Route("api/HoaDon/them")]
+        [HttpPost]
+        public int ThemHoaDon(int soTien, int maHTTT, string coThanhToanTheoDot, int maNV, int maPhieuTTTT)
+        {
+            HoaDon hd = new HoaDon
+            {
+                SoTien = soTien,
+                NgayThanhToan = DateTime.Today.ToString("yyyy-MM-dd"),
+                MaHTTT = maHTTT,
+                CoThanhToanTheoDot = coThanhToanTheoDot,
+                MaNV = maNV,
+                MaPhieuTTTT = maPhieuTTTT
+            };
+            int insertedRows = hdDAO.Insert(hd);
+            return insertedRows;
+        }
     }
 }

@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
         HinhThucThanhToanBUS httt = new HinhThucThanhToanBUS();
         PhieuThongTinThanhToanBus ptttt = new PhieuThongTinThanhToanBus();
         HinhThucDangTuyenBUS htdt = new HinhThucDangTuyenBUS();
+        HoaDonBUS hd = new HoaDonBUS();
         public static DataTable dsPhieuDangTuyen;
         public static DataTable dsHTTT;
         public int SoNgayDangTuyen = 0;
@@ -128,6 +129,38 @@ namespace WindowsFormsApp1
             }
             if (string.IsNullOrEmpty(textBox2.Text)){
                 return;
+            }
+            int maHTTT = 0;
+            string coThanhToanTheoDot = "";
+            int soTien = Convert.ToInt32(textBox2.Text);
+            foreach (DataRow row in dsHTTT.Rows)
+            {
+                if (comboBox1.Text.Equals(row["TenHTTT"].ToString()))
+                {
+                    maHTTT = Convert.ToInt32(row["MaHTTT"].ToString());
+                }
+            }
+            if (comboBox2.Text.Equals("Thanh toán toàn bộ"))
+            {
+                coThanhToanTheoDot = null;
+            }
+            else if (comboBox2.Text.Equals("Thanh toán từng đợt")) {
+                coThanhToanTheoDot = "co";
+                soTien = ptttt.SoTienCanThanhToanTheoDot(maPDT);
+            }
+
+            int maNV = Convert.ToInt32(Program.MaNV);
+            int maPhieuTTTT = ptttt.getMaPhieuTTTT1(maPDT);
+
+            bool success = hd.ThemHoaDon(soTien, maHTTT, coThanhToanTheoDot, maNV, maPhieuTTTT);
+
+            if (success)
+            {
+                MessageBox.Show("PhieuDangTuyen created successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Failed to create PhieuDangTuyen.");
             }
         }
     }
