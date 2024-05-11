@@ -83,6 +83,11 @@ VALUES
 select * from TieuChiDoanhNghiep;
 -- PhieuDangTuyen
 
+select * from PhieuDangTuyen;
+select * from PhieuDangKyQuangCao;
+select * from PhieuThongTinThanhToan;
+select * from DoanhNghiepCanGiaHan;
+
 INSERT INTO PhieuDangTuyen(MaSoThue, ViTriUngTuyen, SoLuongTuyen, MaTieuChi, NgayDK, ThoiGianDangTuyen, TinhTrangHopLe)
 VALUES
     (123456789, 'Backend engineer', 10, 1, '2024-02-23', 10, null),

@@ -67,6 +67,7 @@ namespace WindowsFormsApp1
             if (IsExist == 1)
             {
                 MessageBox.Show("Phieu quang cao da ton tai");
+                comboBox2.SelectedItem = null;
                 return;
             }
 
@@ -79,8 +80,10 @@ namespace WindowsFormsApp1
         {
             textBox1.Text = "";
             dateTimePicker1.Value = DateTime.Now;
-            comboBox2.Text = string.Empty;
-            comboBox3.Text = string.Empty;
+            comboBox2.SelectedItem = null;
+            comboBox3.SelectedItem = null;
+            //comboBox2.Text = string.Empty;
+            //comboBox3.Text = string.Empty;
         }
         private void btnTim_Click(object sender, EventArgs e)
         {

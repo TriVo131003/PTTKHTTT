@@ -125,6 +125,8 @@ CREATE TABLE HoaDon (
     MaPhieuTTTT int
 );
 
+select * from PhieuThonngTinThanhToan;
+
 CREATE TABLE HinhThucThanhToan (
     MaHTTT INT AUTO_INCREMENT PRIMARY KEY,
     TenHTTT varchar(50)

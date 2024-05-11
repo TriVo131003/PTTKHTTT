@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
                 DataRow row = info.Rows[0];
                 Program.MaNV = row["MaNhanVien"].ToString();
                 Program.TenNV = row["HoTen"].ToString();
+                Program.MaNV = row["MaNhanVien"].ToString();
                 string dbUsername = row["MaNhanVien"].ToString();
                 string dbPassword = row["passwordNV"].ToString();
                 if (username == dbUsername && password == dbPassword)

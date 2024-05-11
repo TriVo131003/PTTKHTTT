@@ -75,9 +75,12 @@ namespace WindowsFormsApp1
                     if (tiencanthanhtoan == 0)
                     {
                         MessageBox.Show("Da hoan tat thanh toan");
+                        comboBox3.SelectedItem = null;
+                        return;
                     }
                     if(tiencanthanhtoan == -1)
                     {
+                        comboBox3.Text = string.Empty;
                         return;
                     }    
                     textBox2.Text = tiencanthanhtoan.ToString();
@@ -96,7 +99,7 @@ namespace WindowsFormsApp1
             if (SoNgayDangTuyen < 30 && LoaiThanhToan.Equals("Thanh toán từng đợt"))
             {
                 MessageBox.Show("Số ngày đăng tuyển không đủ điều kiện thanh toán từng đợt");
-                //comboBox3.Text = string.Empty;
+                comboBox2.SelectedItem = null;
                 return;
             }
             if(SoNgayDangTuyen >= 30 && LoaiThanhToan.Equals("Thanh toán từng đợt"))
@@ -104,6 +107,7 @@ namespace WindowsFormsApp1
                 if(ptttt.SoTienDuThanhToanTungDot(tiencanthanhtoan, maPDT) == 0)
                 {
                     MessageBox.Show("Phai thanh toan toan bo chi phi con lai");
+                    comboBox2.SelectedItem = null;
                     return;
                 }
             }
