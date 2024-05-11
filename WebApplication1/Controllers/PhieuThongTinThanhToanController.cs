@@ -21,5 +21,19 @@ namespace WebApplication1.Controllers
             var dt = pttttDAO.getList(MaPTTDT);
             return dt;
         }
+
+        [Route("api/PhieuThongTinThanhToan/them")]
+        [HttpPost]
+        public int ThemPhieuThongTinThanhToan(int tongSoTien, int maPTTDT)
+        {
+            PhieuThongTinThanhToan ptttt = new PhieuThongTinThanhToan
+            {
+                TongSoTien = tongSoTien,
+                MaPTTDT = maPTTDT
+            };
+            int dt = pttttDAO.Insert(ptttt);
+            return dt;
+        }
+
     }
 }

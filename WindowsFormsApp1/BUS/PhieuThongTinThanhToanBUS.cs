@@ -49,6 +49,15 @@ namespace WindowsFormsApp1.BUS
             var data1 = JsonConvert.DeserializeObject<DataTable>(response);
             return 0;
         }
+        public bool ThemPhieuThongTinThanhToan(int tongSoTien, int maPTTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            string url = $"?tongSoTien={tongSoTien}&maPTTDT={maPTTDT}";
+            var response = client.PostAsync("PhieuThongTinThanhToan/them" + url, null).Result;
+
+            return response.IsSuccessStatusCode;
+        }
 
         //public int SoTienCanThanhToan(int SoNgayDT, int DonGia)
         //{
