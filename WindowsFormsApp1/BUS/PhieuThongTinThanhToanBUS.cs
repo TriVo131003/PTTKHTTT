@@ -90,6 +90,20 @@ namespace WindowsFormsApp1.BUS
 
             return 0;
         }
+        public bool ThemPhieuThongTinThanhToan(int tongSoTien, int maPTTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            string url = $"?tongSoTien={tongSoTien}&maPTTDT={maPTTDT}";
+            var response = client.PostAsync("PhieuThongTinThanhToan/them" + url, null).Result;
+
+            return response.IsSuccessStatusCode;
+        }
+
+        //public int SoTienCanThanhToan(int SoNgayDT, int DonGia)
+        //{
+        //    return SoNgayDT * DonGia;
+        //}
         private static HttpClient ThietLapThongTinAPI()
         {
             // In the class

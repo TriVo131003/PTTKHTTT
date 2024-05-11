@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.BUS;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
@@ -87,7 +88,19 @@ namespace WindowsFormsApp1
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
+                int tongSoTien = Convert.ToInt32(textBox2.Text);
+                int maPTTDT = Convert.ToInt32(comboBox1.Text);
 
+                bool success = ptttt.ThemPhieuThongTinThanhToan(tongSoTien, maPTTDT);
+
+                if (success)
+                {
+                    MessageBox.Show("PhieuDangTuyen created successfully!");
+                }
+                else
+                {
+                    MessageBox.Show("Failed to create PhieuDangTuyen.");
+                }
         }
     }
 }
