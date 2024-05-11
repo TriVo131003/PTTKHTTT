@@ -11,6 +11,13 @@ namespace WebApplication1.Controllers
 {
     public class UngVienController : ApiController
     {
+        [Route("api/UngVien/getListMa")]
+        [HttpGet]
+        public DataTable getListMa()
+        {
+            DataTable dt = ungVienDAO.getListMa();
+            return dt;
+        }
         // GET: UngVien
         UngVienDAO ungVienDAO = new UngVienDAO();
         [Route("api/UngVien/them")]
