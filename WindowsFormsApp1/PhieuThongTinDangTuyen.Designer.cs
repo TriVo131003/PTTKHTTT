@@ -85,7 +85,6 @@ namespace WindowsFormsApp1
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(329, 22);
             this.textBox2.TabIndex = 7;
-            this.textBox2.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -121,7 +120,6 @@ namespace WindowsFormsApp1
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(329, 22);
             this.textBox5.TabIndex = 14;
-            this.textBox5.UseSystemPasswordChar = true;
             // 
             // button2
             // 
@@ -162,7 +160,6 @@ namespace WindowsFormsApp1
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(329, 22);
             this.textBox3.TabIndex = 24;
-            this.textBox3.UseSystemPasswordChar = true;
             // 
             // label5
             // 
