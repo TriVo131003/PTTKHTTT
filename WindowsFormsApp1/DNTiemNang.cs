@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class DNTiemNang : Form
     {
-        DoanhNghiepBUS dnBUS = new DoanhNghiepBUS();
+        DoanhNghiepTiemNangBUS dnBUS = new DoanhNghiepTiemNangBUS();
         public DNTiemNang()
         {
             InitializeComponent();
@@ -21,12 +21,11 @@ namespace WindowsFormsApp1
 
         private void DNTiemNang_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = dnBUS.LayDanhSach();
+            dataGridView1.DataSource = dnBUS.LayDanhSachTN();
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            DNTiemNang_Load(sender, e);
         }
     }
 }

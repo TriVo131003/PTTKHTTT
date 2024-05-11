@@ -59,6 +59,7 @@
     <Compile Include="BUS\PhieuQuangCaoBUS.cs" />
     <Compile Include="BUS\PhieuDKUngTuyenBUS.cs" />
     <Compile Include="BUS\UngVienBUS.cs" />
+    <Compile Include="BUS\UuDaiBUS.cs" />
     <Compile Include="DangKyThanhVienUngVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +90,11 @@
     <Compile Include="DanhSachTieuChiDoanhNghiep.Designer.cs">
       <DependentUpon>DanhSachTieuChiDoanhNghiep.cs</DependentUpon>
     </Compile>
-    <Compile Include="GiaHanHopDong.cs">
+    <Compile Include="GiamDoc_MENU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GiaHanHopDong.Designer.cs">
-      <DependentUpon>GiaHanHopDong.cs</DependentUpon>
+    <Compile Include="GiamDoc_MENU.Designer.cs">
+      <DependentUpon>GiamDoc_MENU.cs</DependentUpon>
     </Compile>
     <Compile Include="HienThiPhieuDangTuyen.cs">
       <SubType>Form</SubType>
@@ -118,6 +119,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien_MENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien_MENU.Designer.cs">
+      <DependentUpon>NhanVien_MENU.cs</DependentUpon>
     </Compile>
     <Compile Include="PhieuDangKyQuangCao.cs">
       <SubType>Form</SubType>
@@ -148,8 +155,8 @@
     <EmbeddedResource Include="DoanhNghiepCanGiaHanHD.resx">
       <DependentUpon>DoanhNghiepCanGiaHanHD.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GiaHanHopDong.resx">
-      <DependentUpon>GiaHanHopDong.cs</DependentUpon>
+    <EmbeddedResource Include="GiamDoc_MENU.resx">
+      <DependentUpon>GiamDoc_MENU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HienThiPhieuDangTuyen.resx">
       <DependentUpon>HienThiPhieuDangTuyen.cs</DependentUpon>
@@ -162,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien_MENU.resx">
+      <DependentUpon>NhanVien_MENU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhieuDangKyQuangCao.resx">
       <DependentUpon>PhieuDangKyQuangCao.cs</DependentUpon>

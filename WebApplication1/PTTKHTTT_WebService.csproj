@@ -185,25 +185,32 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\DoanhNghiepTiemNangController.cs" />
+    <Compile Include="Controllers\HinhThucDangTuyenController.cs" />
+    <Compile Include="Controllers\PhieuDKUngTuyenController.cs" />
     <Compile Include="Controllers\TieuChiDoanhNghiepController.cs" />
     <Compile Include="Controllers\DoanhNghiepController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhanVienController.cs" />
     <Compile Include="Controllers\PhieuDangTuyenController.cs" />
     <Compile Include="Controllers\PhieuDangKyQuangCaoController.cs" />
-    <Compile Include="Controllers\PhieuDKUngTuyenController.cs" />
     <Compile Include="Controllers\UngVienController.cs" />
+    <Compile Include="Controllers\UuDaiController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DAO\Database.cs" />
+    <Compile Include="DAO\DoanhNghiepTiemNangDAO.cs" />
+    <Compile Include="DAO\HinhThucDangTuyenDAO.cs" />
     <Compile Include="DAO\NhanVienDAO.cs" />
+    <Compile Include="DAO\PhieuDKUngTuyenDAO.cs" />
     <Compile Include="DAO\TieuChiDoanhNghiepDAO.cs" />
     <Compile Include="DAO\DoanhNghiepDAO.cs" />
     <Compile Include="DAO\PhieuDangTuyenDAO.cs" />
     <Compile Include="DAO\PhieuDangKyQuangCaoDAO.cs" />
-    <Compile Include="DAO\PhieuDKUngTuyenDAO.cs" />
     <Compile Include="DAO\UngVienDAO.cs" />
+    <Compile Include="DAO\UuDaiDAO.cs" />
     <Compile Include="DTO\PhieuDangTuyen.cs" />
     <Compile Include="DTO\DoanhNghiep.cs" />
+    <Compile Include="DTO\PhieuDangKyQuangCao.cs" />
     <Compile Include="DTO\PhieuDKUngTuyen.cs" />
     <Compile Include="DTO\UngVien.cs" />
     <Compile Include="Global.asax.cs">
@@ -264,10 +271,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\DoanhNghiepTiemNang\" />
     <Folder Include="Views\DoanhNghiep\" />
     <Folder Include="Views\NhanVien\" />
     <Folder Include="Views\Phieu\" />
     <Folder Include="Views\UngVien\" />
+    <Folder Include="Views\UuDai\" />
     <Folder Include="Views\Values\" />
   </ItemGroup>
   <ItemGroup>

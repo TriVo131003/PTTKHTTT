@@ -58,5 +58,9 @@ namespace WindowsFormsApp1
             ((Timer)sender).Stop();
         }
 
+        private void DangKyThanhVienUngVien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

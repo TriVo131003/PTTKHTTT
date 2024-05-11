@@ -20,19 +20,21 @@ namespace WindowsFormsApp1.BUS
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
+
+        public DataTable LayDSTheoMST(String MaSoThue)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            var response = client.GetStringAsync($"PhieuDangTuyen/DSPhieuTheoMST/{MaSoThue}").Result;
+            var data = JsonConvert.DeserializeObject<DataTable>(response);
+            return data;
+        }
+
         public bool themPhieuDangTuyen(string maSoThue, string viTriUngTuyen, int soLuongTuyen, int maTieuChi, int thoiGianDangTuyen)
         {
             HttpClient client = ThietLapThongTinAPI();
-            var PhieuDangTuyen = new
-            {
-                maSoThue = maSoThue,
-                viTriUngTuyen = viTriUngTuyen,
-                soLuongTuyen = soLuongTuyen,
-                maTieuChi = maTieuChi,
-                thoiGianDangTuyen = thoiGianDangTuyen
-            };
-            var content = new StringContent(JsonConvert.SerializeObject(PhieuDangTuyen), System.Text.Encoding.UTF8, "application/json");
-            var response = client.PostAsync("PhieuDangTuyen/Them", content).Result;
+            string url = $"?MaSoThue={maSoThue}&ViTriUngTuyen={viTriUngTuyen}&SoLuongTuyen={soLuongTuyen}&MaTieuChi={maTieuChi}&ThoiGianDangTuyen={thoiGianDangTuyen}";
+            var response = client.PostAsync("PhieuDangTuyen/Them" + url, null).Result;
             return response.IsSuccessStatusCode;
         }
         private static HttpClient ThietLapThongTinAPI()

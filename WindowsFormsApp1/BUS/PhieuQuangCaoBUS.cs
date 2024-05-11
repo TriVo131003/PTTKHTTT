@@ -7,6 +7,7 @@ using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1.BUS
 {
@@ -20,13 +21,29 @@ namespace WindowsFormsApp1.BUS
             var data = JsonConvert.DeserializeObject<DataTable>(response);
             return data;
         }
-
-        public DataTable LayTheoPhieuDangTuyen(String MaPDT)
+        public DataTable LayDSTheoMST(String MaSoThue)
         {
             HttpClient client = ThietLapThongTinAPI();
 
-            var response = client.GetStringAsync("PhieuDangKyQuangCao/getAccordingTo/{MaPDT}").Result;
+            var response = client.GetStringAsync($"PhieuDangKyQuangCao/DSPhieuTheoMST/{MaSoThue}").Result;
             var data = JsonConvert.DeserializeObject<DataTable>(response);
+            return data;
+        }
+        public bool themPhieuQuangCao(string ThoiGianDangTuyen, string MaPTTDT, string MaHTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            string url = $"?MaPTTDT={MaPTTDT}&ThoiGianDangTuyen={ThoiGianDangTuyen}&MaHTDT={MaHTDT}";
+            var response = client.PostAsync("PhieuDangKyQuangCao/addNew" + url, null).Result;
+            return response.IsSuccessStatusCode;
+        }
+
+        public int KTPhieuDangKyQuangCao(string MaPTTDT)
+        {
+            HttpClient client = ThietLapThongTinAPI();
+
+            var response = client.GetStringAsync($"PhieuDangKyQuangCao/KT/{MaPTTDT}").Result;
+            var data = JsonConvert.DeserializeObject<int>(response);
             return data;
         }
 

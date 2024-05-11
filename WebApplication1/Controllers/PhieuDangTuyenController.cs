@@ -20,6 +20,14 @@ namespace WebApplication1.Controllers
             return dt;
         }
 
+        [Route("api/PhieuDangTuyen/DSPhieuTheoMST/{MaSoThue}")]
+        [HttpGet]
+        public DataTable LayDSTheoMST(String MaSoThue)
+        {
+            var dt = pdtDAO.DSPhieuTheoMST(MaSoThue);
+            return dt;
+        }
+
         [Route("api/PhieuDangTuyen/them")]
         [HttpPost]
         public int ThemPhieuDangTuyen(string maSoThue,string viTriUngTuyen, int soLuongTuyen, int maTieuChi, int thoiGianDangTuyen)
@@ -30,7 +38,7 @@ namespace WebApplication1.Controllers
                  ViTriUngTuyen = viTriUngTuyen,
                  SoLuongTuyen = soLuongTuyen,
                  MaTieuChi = maTieuChi,
-                 NgayDK = DateTime.Today.ToString("MM/dd/yyyy"),
+                 NgayDK = DateTime.Today.ToString("yyyy-MM-dd"),
                  ThoiGianDangTuyen = thoiGianDangTuyen,
                  TinhTrangHopLe = null,
             };

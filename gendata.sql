@@ -98,7 +98,10 @@ VALUES
     (135791113, 'QA engineer', 15, 2, '2024-02-23', 7, null),
     (135791113, 'Software developer', 12, 3, '2024-02-23', 10, null),
     (135791113, 'UI/UX designer', 8, 2, '2024-02-23', 13, null);
-select * from PhieuDangTuyen;
+-- select count(*) as cnt from PhieuDangKyQuangCao where MaPTTDT = 22;
+-- select * from PhieuDangTuyen;
+-- select * from PhieuDangKyQuangCao;
+-- Select count(*) as cnt from PhieuDangKyQuangCao where MaPTTDT =1;
 
 -- PHIEUDKQUANGCAO
 INSERT INTO PhieuDangKyQuangCao (MaHTDT, MaPTTDT,  ThoiGianDangTuyen)
@@ -114,6 +117,8 @@ VALUES
     (3, 9, '2024-02-25'),
     (1, 10, '2024-02-25');
     
+    
+select PhieuDangKyQuangCao;
 -- UNG VIEN
 INSERT INTO UngVien (HoTen, NgaySinh, SDT)
 VALUES
