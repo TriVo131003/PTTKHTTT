@@ -29,24 +29,28 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.comboBox3);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.comboBox2);
@@ -60,112 +64,130 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(943, 487);
+            this.groupBox1.Size = new System.Drawing.Size(943, 564);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Thanh toán hóa đơn";
             // 
-            // label1
+            // button3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 50);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã số thuế";
+            this.button3.Location = new System.Drawing.Point(578, 449);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(168, 41);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Hủy";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // button2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(126, 104);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Mã phiếu đăng tuyển";
+            this.button2.Location = new System.Drawing.Point(225, 449);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(168, 41);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Thanh toán";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // comboBox2
             // 
-            this.textBox1.Location = new System.Drawing.Point(340, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(274, 22);
-            this.textBox1.TabIndex = 2;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(340, 293);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(274, 24);
+            this.comboBox2.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(126, 296);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(144, 16);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Phương thức thanh toán";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(340, 236);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(274, 22);
+            this.textBox2.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(126, 239);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(137, 16);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Số tiền cần thanh toán";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(340, 182);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(274, 24);
+            this.comboBox1.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(690, 43);
+            this.button1.Location = new System.Drawing.Point(690, 120);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 31);
             this.button1.TabIndex = 3;
             this.button1.Text = "Tìm";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // textBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(340, 105);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(274, 24);
-            this.comboBox1.TabIndex = 4;
+            this.textBox1.Location = new System.Drawing.Point(340, 124);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(274, 22);
+            this.textBox1.TabIndex = 2;
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(126, 162);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Số tiền cần thanh toán";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(126, 181);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Mã phiếu đăng tuyển";
             // 
-            // textBox2
+            // label1
             // 
-            this.textBox2.Location = new System.Drawing.Point(340, 159);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(274, 22);
-            this.textBox2.TabIndex = 6;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(126, 127);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mã số thuế";
             // 
-            // label4
+            // label5
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(126, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Phương thức thanh toán";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(126, 362);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(97, 16);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Loại thanh toán";
             // 
-            // comboBox2
+            // comboBox3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(340, 216);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(274, 24);
-            this.comboBox2.TabIndex = 8;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(340, 359);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(274, 24);
+            this.comboBox3.TabIndex = 12;
             // 
-            // button2
+            // label6
             // 
-            this.button2.Location = new System.Drawing.Point(384, 301);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 41);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Thanh toán toàn bộ";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(384, 359);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(168, 37);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Thanh toán theo đợt";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(384, 418);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(168, 40);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Hủy";
-            this.button4.UseVisualStyleBackColor = true;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(320, 46);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(405, 45);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "PHIẾU THANH TOÁN";
             // 
             // ThanhToan
             // 
@@ -194,7 +216,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
