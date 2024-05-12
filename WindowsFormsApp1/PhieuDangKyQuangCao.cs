@@ -88,9 +88,11 @@ namespace WindowsFormsApp1
         private void btnTim_Click(object sender, EventArgs e)
         {
             DataTable dsPhieuDangTuyen = pdt.LayDSTheoMST(textBox1.Text);
-            if(dsPhieuDangTuyen.Rows.Count > 0)
+            comboBox2.Items.Clear();
+            if (dsPhieuDangTuyen.Rows.Count > 0)
             {
                 MessageBox.Show("Tim thanh cong");
+                
             }
             else
             {
